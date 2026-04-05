@@ -1,0 +1,4094 @@
+{
+    "ASH": {
+        "concept": "ash",
+        "gloss": "ASH",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "cendre"
+                ],
+                "ipa": [
+                    "sɑ̃dʀə"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "cenere"
+                ],
+                "ipa": [
+                    "t͡ʃenere"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "cinza"
+                ],
+                "ipa": [
+                    "sĩzɐ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "cenușă"
+                ],
+                "ipa": [
+                    "t͡ʃenuʃə"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "ceniza"
+                ],
+                "ipa": [
+                    "senisa"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "cinis"
+                ],
+                "ipa": [
+                    "kenes"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "BARK": {
+        "concept": "bark",
+        "gloss": "BARK",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "écorce"
+                ],
+                "ipa": [
+                    "ekɔʀs"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "scoarță"
+                ],
+                "ipa": [
+                    "skoart͡sə"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "corteza"
+                ],
+                "ipa": [
+                    "koɾtesa"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "cortex"
+                ],
+                "ipa": [
+                    "kɔrtɛks"
+                ],
+                "status": "rules-vulgar-latin"
+            },
+            "Italian": {
+                "ortho": [
+                    "corteccia"
+                ],
+                "ipa": [
+                    "kortet͡ʃːa"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "casca"
+                ],
+                "ipa": [
+                    "kɐʃkɐ"
+                ],
+                "status": "auto"
+            }
+        }
+    },
+    "BELLY": {
+        "concept": "belly",
+        "gloss": "BELLY",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "ventre"
+                ],
+                "ipa": [
+                    "vɑ̃tʀə"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "uenter"
+                ],
+                "ipa": [
+                    "βɛntɛr"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "BIG": {
+        "concept": "big",
+        "gloss": "BIG",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "magnus"
+                ],
+                "ipa": [
+                    "maŋnos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "BIRD": {
+        "concept": "bird",
+        "gloss": "BIRD",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "oiseau"
+                ],
+                "ipa": [
+                    "wazo"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "uccello"
+                ],
+                "ipa": [
+                    "ut͡ʃːelːo"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "ave"
+                ],
+                "ipa": [
+                    "ɐvɛ"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "ave"
+                ],
+                "ipa": [
+                    "abe"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "auis"
+                ],
+                "ipa": [
+                    "aβes"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "BITE": {
+        "concept": "bite",
+        "gloss": "BITE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "mordre"
+                ],
+                "ipa": [
+                    "mɔʀdʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "mordere"
+                ],
+                "ipa": [
+                    "mordere"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "morder"
+                ],
+                "ipa": [
+                    "moɾdɛɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "mușca"
+                ],
+                "ipa": [
+                    "muʃka"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "morder"
+                ],
+                "ipa": [
+                    "moɾdeɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "mordēre"
+                ],
+                "ipa": [
+                    "mɔrderɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "BLACK": {
+        "concept": "black",
+        "gloss": "BLACK",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "noir"
+                ],
+                "ipa": [
+                    "nwaʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "nero"
+                ],
+                "ipa": [
+                    "nero"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "negru"
+                ],
+                "ipa": [
+                    "neɡru"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "negro"
+                ],
+                "ipa": [
+                    "neɡɾo"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "niger"
+                ],
+                "ipa": [
+                    "neɡɛr"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "BLOOD": {
+        "concept": "blood",
+        "gloss": "BLOOD",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "sang"
+                ],
+                "ipa": [
+                    "sɑ̃"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "sangue"
+                ],
+                "ipa": [
+                    "sanɡue"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "sangue"
+                ],
+                "ipa": [
+                    "sɐ̃ɡe"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "sânge"
+                ],
+                "ipa": [
+                    "sɨnd͡ʒe"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "sangre"
+                ],
+                "ipa": [
+                    "sanɡɾe"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "sanguīs"
+                ],
+                "ipa": [
+                    "saŋɡʷis"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "BONE": {
+        "concept": "bone",
+        "gloss": "BONE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "os"
+                ],
+                "ipa": [
+                    "ɔs"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "osso"
+                ],
+                "ipa": [
+                    "osːo"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "osso"
+                ],
+                "ipa": [
+                    "oso"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "os"
+                ],
+                "ipa": [
+                    "os"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "hueso"
+                ],
+                "ipa": [
+                    "ueso"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "os"
+                ],
+                "ipa": [
+                    "ɔs"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "BURN": {
+        "concept": "burn",
+        "gloss": "BURN",
+        "languages": {
+            "Portuguese": {
+                "ortho": [
+                    "arder"
+                ],
+                "ipa": [
+                    "ɐɾdɛɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "arde"
+                ],
+                "ipa": [
+                    "arde"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "ardēre"
+                ],
+                "ipa": [
+                    "arderɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "CLOUD": {
+        "concept": "cloud",
+        "gloss": "CLOUD",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "nuage"
+                ],
+                "ipa": [
+                    "nɥaʒ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "nuvola"
+                ],
+                "ipa": [
+                    "nuvola"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "nuvem"
+                ],
+                "ipa": [
+                    "nuvɛ̃"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "nor"
+                ],
+                "ipa": [
+                    "nor"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "nube"
+                ],
+                "ipa": [
+                    "nube"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "nūbēs"
+                ],
+                "ipa": [
+                    "nubes"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "COLD": {
+        "concept": "cold",
+        "gloss": "COLD",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "froid"
+                ],
+                "ipa": [
+                    "fʀwa"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "freddo"
+                ],
+                "ipa": [
+                    "fredːo"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "frio"
+                ],
+                "ipa": [
+                    "fɾio"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "frío"
+                ],
+                "ipa": [
+                    "fɾjo"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "frīgidus"
+                ],
+                "ipa": [
+                    "friɡedos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "COME": {
+        "concept": "come",
+        "gloss": "COME",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "venir"
+                ],
+                "ipa": [
+                    "vəniʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "venire"
+                ],
+                "ipa": [
+                    "venire"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "vir"
+                ],
+                "ipa": [
+                    "viɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "veni"
+                ],
+                "ipa": [
+                    "veni"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "venir"
+                ],
+                "ipa": [
+                    "beniɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "uenīre"
+                ],
+                "ipa": [
+                    "βɛnirɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "DIE": {
+        "concept": "die",
+        "gloss": "DIE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "mourir"
+                ],
+                "ipa": [
+                    "muʀiʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "morire"
+                ],
+                "ipa": [
+                    "morire"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "morrer"
+                ],
+                "ipa": [
+                    "moʁɛɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "muri"
+                ],
+                "ipa": [
+                    "muri"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "morir"
+                ],
+                "ipa": [
+                    "moɾiɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "morī"
+                ],
+                "ipa": [
+                    "mɔri"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "DOG": {
+        "concept": "dog",
+        "gloss": "DOG",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "chien"
+                ],
+                "ipa": [
+                    "ʃjɛ̃"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "cane"
+                ],
+                "ipa": [
+                    "kane"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "cão"
+                ],
+                "ipa": [
+                    "kɐ̃w̃"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "câine"
+                ],
+                "ipa": [
+                    "kɨine"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "canis"
+                ],
+                "ipa": [
+                    "kanes"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "DRINK": {
+        "concept": "drink",
+        "gloss": "DRINK",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "boire"
+                ],
+                "ipa": [
+                    "bwaʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "bere"
+                ],
+                "ipa": [
+                    "bere"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "beber"
+                ],
+                "ipa": [
+                    "bɛbɛɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "bea"
+                ],
+                "ipa": [
+                    "bea"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "beber"
+                ],
+                "ipa": [
+                    "bebeɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "bibere"
+                ],
+                "ipa": [
+                    "bebɛrɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "DRY": {
+        "concept": "dry",
+        "gloss": "DRY",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "sec"
+                ],
+                "ipa": [
+                    "sɛk"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "seco"
+                ],
+                "ipa": [
+                    "sɛko"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "seco"
+                ],
+                "ipa": [
+                    "seko"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "siccus"
+                ],
+                "ipa": [
+                    "sekːos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "EAR": {
+        "concept": "ear",
+        "gloss": "EAR",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "oreille"
+                ],
+                "ipa": [
+                    "ɔʀɛj"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "orecchio"
+                ],
+                "ipa": [
+                    "orekːio"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "orelha"
+                ],
+                "ipa": [
+                    "oɾeʎɐ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "ureche"
+                ],
+                "ipa": [
+                    "ureke"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "oreja"
+                ],
+                "ipa": [
+                    "oɾexa"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "auris"
+                ],
+                "ipa": [
+                    "awres"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "EARTH": {
+        "concept": "earth",
+        "gloss": "EARTH",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "terre"
+                ],
+                "ipa": [
+                    "tɛʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "terra"
+                ],
+                "ipa": [
+                    "terːa"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "terra"
+                ],
+                "ipa": [
+                    "tɛʁɐ"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "tierra"
+                ],
+                "ipa": [
+                    "tjera"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "terra"
+                ],
+                "ipa": [
+                    "tɛrːa"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "EAT": {
+        "concept": "eat",
+        "gloss": "EAT",
+        "languages": {
+            "Portuguese": {
+                "ortho": [
+                    "comer"
+                ],
+                "ipa": [
+                    "komɛɾ"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "comer"
+                ],
+                "ipa": [
+                    "komeɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "edere"
+                ],
+                "ipa": [
+                    "ɛdɛrɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "EGG": {
+        "concept": "egg",
+        "gloss": "EGG",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "oeuf"
+                ],
+                "ipa": [
+                    "œf"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "uovo"
+                ],
+                "ipa": [
+                    "uovo"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "ovo"
+                ],
+                "ipa": [
+                    "ovo"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "ou"
+                ],
+                "ipa": [
+                    "ou"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "huevo"
+                ],
+                "ipa": [
+                    "uebo"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "ōuum"
+                ],
+                "ipa": [
+                    "oβo"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "EYE": {
+        "concept": "eye",
+        "gloss": "EYE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "oeil"
+                ],
+                "ipa": [
+                    "œj"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "occhio"
+                ],
+                "ipa": [
+                    "okːio"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "olho"
+                ],
+                "ipa": [
+                    "oʎo"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "ochi"
+                ],
+                "ipa": [
+                    "oki"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "ojo"
+                ],
+                "ipa": [
+                    "oxo"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "oculus"
+                ],
+                "ipa": [
+                    "ɔkolos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "FEATHER": {
+        "concept": "feather",
+        "gloss": "FEATHER",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "plume"
+                ],
+                "ipa": [
+                    "plym"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "piuma"
+                ],
+                "ipa": [
+                    "piuma"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "pluma"
+                ],
+                "ipa": [
+                    "pluma"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "plūma"
+                ],
+                "ipa": [
+                    "pluma"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "FIRE": {
+        "concept": "fire",
+        "gloss": "FIRE",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "ignis"
+                ],
+                "ipa": [
+                    "eŋnes"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "FISH": {
+        "concept": "fish",
+        "gloss": "FISH",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "poisson"
+                ],
+                "ipa": [
+                    "pwasɔ̃"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "pesce"
+                ],
+                "ipa": [
+                    "pest͡ʃe"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "peixe"
+                ],
+                "ipa": [
+                    "pejʃe"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "pește"
+                ],
+                "ipa": [
+                    "peʃte"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "pez"
+                ],
+                "ipa": [
+                    "pes"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "piscis"
+                ],
+                "ipa": [
+                    "peskes"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "FLY": {
+        "concept": "fly",
+        "gloss": "FLY",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "voler"
+                ],
+                "ipa": [
+                    "vɔle"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "volare"
+                ],
+                "ipa": [
+                    "volare"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "voar"
+                ],
+                "ipa": [
+                    "vowɐɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "a zbura"
+                ],
+                "ipa": [
+                    "zbura"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "volar"
+                ],
+                "ipa": [
+                    "bolaɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "uolāre"
+                ],
+                "ipa": [
+                    "βɔlarɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "FOOT": {
+        "concept": "foot",
+        "gloss": "FOOT",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "pied"
+                ],
+                "ipa": [
+                    "pjɛ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "piede"
+                ],
+                "ipa": [
+                    "piede"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "pé"
+                ],
+                "ipa": [
+                    "pɛ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "picior"
+                ],
+                "ipa": [
+                    "pit͡ʃior"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "pie"
+                ],
+                "ipa": [
+                    "pje"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "pēs"
+                ],
+                "ipa": [
+                    "pes"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "GIVE": {
+        "concept": "give",
+        "gloss": "GIVE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "donner"
+                ],
+                "ipa": [
+                    "dɔne"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "dare"
+                ],
+                "ipa": [
+                    "dare"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "dar"
+                ],
+                "ipa": [
+                    "dɐɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "a da"
+                ],
+                "ipa": [
+                    "da"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "dar"
+                ],
+                "ipa": [
+                    "daɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "dare"
+                ],
+                "ipa": [
+                    "darɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "GOOD": {
+        "concept": "good",
+        "gloss": "GOOD",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "bon"
+                ],
+                "ipa": [
+                    "bɔ̃"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "buono"
+                ],
+                "ipa": [
+                    "buono"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "bom"
+                ],
+                "ipa": [
+                    "bõ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "bun"
+                ],
+                "ipa": [
+                    "bun"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "bueno"
+                ],
+                "ipa": [
+                    "bweno"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "bonus"
+                ],
+                "ipa": [
+                    "bɔnos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "GREEN": {
+        "concept": "green",
+        "gloss": "GREEN",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "vert"
+                ],
+                "ipa": [
+                    "vɛʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "verde"
+                ],
+                "ipa": [
+                    "verde"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "verde"
+                ],
+                "ipa": [
+                    "vɛɾdɛ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "verde"
+                ],
+                "ipa": [
+                    "verde"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "verde"
+                ],
+                "ipa": [
+                    "beɾde"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "uiridis"
+                ],
+                "ipa": [
+                    "βeredes"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "HAIR": {
+        "concept": "hair",
+        "gloss": "HAIR",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "cheveu"
+                ],
+                "ipa": [
+                    "ʃəvø"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "cabelo"
+                ],
+                "ipa": [
+                    "kɐbɛlo"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "capillī"
+                ],
+                "ipa": [
+                    "kapelːi"
+                ],
+                "status": "rules-vulgar-latin"
+            },
+            "Italian": {
+                "ortho": [
+                    "capelli"
+                ],
+                "ipa": [
+                    "kapelːi"
+                ],
+                "status": "auto"
+            }
+        }
+    },
+    "HAND": {
+        "concept": "hand",
+        "gloss": "HAND",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "main"
+                ],
+                "ipa": [
+                    "mɛ̃"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "mano"
+                ],
+                "ipa": [
+                    "mano"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "mão"
+                ],
+                "ipa": [
+                    "mɐ̃w̃"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "mână"
+                ],
+                "ipa": [
+                    "mɨnə"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "mano"
+                ],
+                "ipa": [
+                    "mano"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "manus"
+                ],
+                "ipa": [
+                    "manos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "HEAD": {
+        "concept": "head",
+        "gloss": "HEAD",
+        "languages": {
+            "Portuguese": {
+                "ortho": [
+                    "cabeça"
+                ],
+                "ipa": [
+                    "kɐbɛsɐ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "cap"
+                ],
+                "ipa": [
+                    "kap"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "cabeza"
+                ],
+                "ipa": [
+                    "kabesa"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "caput"
+                ],
+                "ipa": [
+                    "kapot"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "HEAR": {
+        "concept": "hear",
+        "gloss": "HEAR",
+        "languages": {
+            "Portuguese": {
+                "ortho": [
+                    "ouvir"
+                ],
+                "ipa": [
+                    "oviɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "a auzi"
+                ],
+                "ipa": [
+                    "auzi"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "oír"
+                ],
+                "ipa": [
+                    "oiɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "audīre"
+                ],
+                "ipa": [
+                    "awdirɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "HEART": {
+        "concept": "heart",
+        "gloss": "HEART",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "cœur"
+                ],
+                "ipa": [
+                    "kœʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "cuore"
+                ],
+                "ipa": [
+                    "kuore"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "coração"
+                ],
+                "ipa": [
+                    "koɾɐsɐ̃w̃"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "corazón"
+                ],
+                "ipa": [
+                    "koɾason"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "cor"
+                ],
+                "ipa": [
+                    "kɔr"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "KILL": {
+        "concept": "kill",
+        "gloss": "KILL",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "interficere"
+                ],
+                "ipa": [
+                    "entɛrfekɛrɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "KNOW": {
+        "concept": "know",
+        "gloss": "KNOW",
+        "languages": {
+            "Romanian": {
+                "ortho": [
+                    "a ști"
+                ],
+                "ipa": [
+                    "ʃti"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "scīre"
+                ],
+                "ipa": [
+                    "skirɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "LEAF": {
+        "concept": "leaf",
+        "gloss": "LEAF",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "feuille"
+                ],
+                "ipa": [
+                    "fœj"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "foglia"
+                ],
+                "ipa": [
+                    "foʎa"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "folha"
+                ],
+                "ipa": [
+                    "foʎɐ"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "hoja"
+                ],
+                "ipa": [
+                    "oxa"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "folium"
+                ],
+                "ipa": [
+                    "fɔljo"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "LIVER": {
+        "concept": "liver",
+        "gloss": "LIVER",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "iecur"
+                ],
+                "ipa": [
+                    "jɛkor"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "LONG": {
+        "concept": "long",
+        "gloss": "LONG",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "long"
+                ],
+                "ipa": [
+                    "lɔ̃"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "lungo"
+                ],
+                "ipa": [
+                    "lunɡo"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "lung"
+                ],
+                "ipa": [
+                    "lunɡ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "longus"
+                ],
+                "ipa": [
+                    "lɔŋɡos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "LOUSE": {
+        "concept": "louse",
+        "gloss": "LOUSE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "pou"
+                ],
+                "ipa": [
+                    "pu"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "pidocchio"
+                ],
+                "ipa": [
+                    "pidokːio"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "piolho"
+                ],
+                "ipa": [
+                    "pioʎo"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "păduche"
+                ],
+                "ipa": [
+                    "pəduke"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "piojo"
+                ],
+                "ipa": [
+                    "pjoxo"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "pēdiculus"
+                ],
+                "ipa": [
+                    "pedekolos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "MAN": {
+        "concept": "man",
+        "gloss": "MAN",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "uir"
+                ],
+                "ipa": [
+                    "βer"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "FLESH": {
+        "concept": "flesh",
+        "gloss": "FLESH",
+        "languages": {
+            "Italian": {
+                "ortho": [
+                    "carne"
+                ],
+                "ipa": [
+                    "karne"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "carne"
+                ],
+                "ipa": [
+                    "kɐɾnɛ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "carne"
+                ],
+                "ipa": [
+                    "karne"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "carne"
+                ],
+                "ipa": [
+                    "kaɾne"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "carō"
+                ],
+                "ipa": [
+                    "karo"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "MOUNTAIN": {
+        "concept": "mountain",
+        "gloss": "MOUNTAIN",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "montagne"
+                ],
+                "ipa": [
+                    "mɔ̃taɲ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "montagna"
+                ],
+                "ipa": [
+                    "montaɲa"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "montanha"
+                ],
+                "ipa": [
+                    "mõtɐɲɐ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "munte"
+                ],
+                "ipa": [
+                    "munte"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "montaña"
+                ],
+                "ipa": [
+                    "montaɲa"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "mōns"
+                ],
+                "ipa": [
+                    "mos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "MOUTH": {
+        "concept": "mouth",
+        "gloss": "MOUTH",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "ōs"
+                ],
+                "ipa": [
+                    "os"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "NAME": {
+        "concept": "name",
+        "gloss": "NAME",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "nom"
+                ],
+                "ipa": [
+                    "nɔ̃"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "nome"
+                ],
+                "ipa": [
+                    "nome"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "nome"
+                ],
+                "ipa": [
+                    "nomɛ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "nume"
+                ],
+                "ipa": [
+                    "nume"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "nombre"
+                ],
+                "ipa": [
+                    "nombɾe"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "nōmen"
+                ],
+                "ipa": [
+                    "nomɛn"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "NECK": {
+        "concept": "neck",
+        "gloss": "NECK",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "cou"
+                ],
+                "ipa": [
+                    "ku"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "collo"
+                ],
+                "ipa": [
+                    "kolːo"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "cuello"
+                ],
+                "ipa": [
+                    "kweʝo"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "collum"
+                ],
+                "ipa": [
+                    "kɔlːo"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "NEW": {
+        "concept": "new",
+        "gloss": "NEW",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "nouveau"
+                ],
+                "ipa": [
+                    "nuvo"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "nuovo"
+                ],
+                "ipa": [
+                    "nuovo"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "novo"
+                ],
+                "ipa": [
+                    "novo"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "nou"
+                ],
+                "ipa": [
+                    "nou"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "nuevo"
+                ],
+                "ipa": [
+                    "nwebo"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "nouus"
+                ],
+                "ipa": [
+                    "nɔβos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "NIGHT": {
+        "concept": "night",
+        "gloss": "NIGHT",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "nuit"
+                ],
+                "ipa": [
+                    "nɥi"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "notte"
+                ],
+                "ipa": [
+                    "notːe"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "noite"
+                ],
+                "ipa": [
+                    "nojte"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "noapte"
+                ],
+                "ipa": [
+                    "noapte"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "noche"
+                ],
+                "ipa": [
+                    "not͡ʃe"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "nox"
+                ],
+                "ipa": [
+                    "nɔks"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "NOSE": {
+        "concept": "nose",
+        "gloss": "NOSE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "nez"
+                ],
+                "ipa": [
+                    "nɛ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "naso"
+                ],
+                "ipa": [
+                    "naso"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "nariz"
+                ],
+                "ipa": [
+                    "nɐɾiʒ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "nas"
+                ],
+                "ipa": [
+                    "nas"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "nariz"
+                ],
+                "ipa": [
+                    "naɾis"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "nāsus"
+                ],
+                "ipa": [
+                    "nasos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "ONE": {
+        "concept": "one",
+        "gloss": "ONE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "un"
+                ],
+                "ipa": [
+                    "œ̃"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "uno"
+                ],
+                "ipa": [
+                    "uno"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "um"
+                ],
+                "ipa": [
+                    "ũ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "unu"
+                ],
+                "ipa": [
+                    "unu"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "uno"
+                ],
+                "ipa": [
+                    "uno"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "ūnus"
+                ],
+                "ipa": [
+                    "unos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "RAIN": {
+        "concept": "rain",
+        "gloss": "RAIN",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "pluie"
+                ],
+                "ipa": [
+                    "plɥi"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "pioggia"
+                ],
+                "ipa": [
+                    "piod͡ʒːa"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "chuva"
+                ],
+                "ipa": [
+                    "ʃuvɐ"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "lluvia"
+                ],
+                "ipa": [
+                    "ʝubja"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "pluuia"
+                ],
+                "ipa": [
+                    "ploβja"
+                ],
+                "status": "rules-vulgar-latin"
+            },
+            "Romanian": {
+                "ortho": [
+                    "ploaie"
+                ],
+                "ipa": [
+                    "ploaie"
+                ],
+                "status": "auto"
+            }
+        }
+    },
+    "RED": {
+        "concept": "red",
+        "gloss": "RED",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "rouge"
+                ],
+                "ipa": [
+                    "ʀuʒ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "rosso"
+                ],
+                "ipa": [
+                    "rosːo"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "roșu"
+                ],
+                "ipa": [
+                    "roʃu"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "rojo"
+                ],
+                "ipa": [
+                    "ɾoxo"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "ruber"
+                ],
+                "ipa": [
+                    "robɛr"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "ROOT": {
+        "concept": "root",
+        "gloss": "ROOT",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "racine"
+                ],
+                "ipa": [
+                    "ʀasin"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "radice"
+                ],
+                "ipa": [
+                    "radit͡ʃe"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "raiz"
+                ],
+                "ipa": [
+                    "ʁajʒ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "rădăcină"
+                ],
+                "ipa": [
+                    "rədət͡ʃinə"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "raíz"
+                ],
+                "ipa": [
+                    "ɾais"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "rādix"
+                ],
+                "ipa": [
+                    "radeks"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "SAND": {
+        "concept": "sand",
+        "gloss": "SAND",
+        "languages": {
+            "Portuguese": {
+                "ortho": [
+                    "areia"
+                ],
+                "ipa": [
+                    "ɐɾɛjɐ"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "arena"
+                ],
+                "ipa": [
+                    "aɾena"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "(h)arēna"
+                ],
+                "ipa": [
+                    "(h)arena"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "SAY": {
+        "concept": "say",
+        "gloss": "SAY",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "dire"
+                ],
+                "ipa": [
+                    "diʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "dire"
+                ],
+                "ipa": [
+                    "dire"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "dizer"
+                ],
+                "ipa": [
+                    "dizɛɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "a zice"
+                ],
+                "ipa": [
+                    "zit͡ʃe"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "decir"
+                ],
+                "ipa": [
+                    "desiɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "dicere"
+                ],
+                "ipa": [
+                    "dekɛrɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "SEE": {
+        "concept": "see",
+        "gloss": "SEE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "voir"
+                ],
+                "ipa": [
+                    "vwaʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "vedere"
+                ],
+                "ipa": [
+                    "vedere"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "ver"
+                ],
+                "ipa": [
+                    "vɛɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "a vedea"
+                ],
+                "ipa": [
+                    "vedea"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "ver"
+                ],
+                "ipa": [
+                    "beɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "uidēre"
+                ],
+                "ipa": [
+                    "βederɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "SEED": {
+        "concept": "seed",
+        "gloss": "SEED",
+        "languages": {
+            "Italian": {
+                "ortho": [
+                    "seme"
+                ],
+                "ipa": [
+                    "seme"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "semente"
+                ],
+                "ipa": [
+                    "semẽte"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "sămânță"
+                ],
+                "ipa": [
+                    "səmɨnt͡sə"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "semilla"
+                ],
+                "ipa": [
+                    "semiʝa"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "sēmen"
+                ],
+                "ipa": [
+                    "semɛn"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "SIT": {
+        "concept": "sit",
+        "gloss": "SIT",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "être assis"
+                ],
+                "ipa": [
+                    "ɛtʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "essere seduto"
+                ],
+                "ipa": [
+                    "seduto"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "estar sentado"
+                ],
+                "ipa": [
+                    "ɛʃtɐɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "a şedea"
+                ],
+                "ipa": [
+                    "ʃedea"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "estar sentado"
+                ],
+                "ipa": [
+                    "estaɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "sedēre"
+                ],
+                "ipa": [
+                    "sɛderɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "SKIN": {
+        "concept": "skin",
+        "gloss": "SKIN",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "cutis"
+                ],
+                "ipa": [
+                    "kotes"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "SLEEP": {
+        "concept": "sleep",
+        "gloss": "SLEEP",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "dormir"
+                ],
+                "ipa": [
+                    "dɔʀmiʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "dormire"
+                ],
+                "ipa": [
+                    "dormire"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "dormir"
+                ],
+                "ipa": [
+                    "doɾmiɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "a dormi"
+                ],
+                "ipa": [
+                    "dormi"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "dormir"
+                ],
+                "ipa": [
+                    "doɾmiɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "dormīre"
+                ],
+                "ipa": [
+                    "dɔrmirɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "SMALL": {
+        "concept": "small",
+        "gloss": "SMALL",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "paruus"
+                ],
+                "ipa": [
+                    "paros"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "SMOKE": {
+        "concept": "smoke",
+        "gloss": "SMOKE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "fumée"
+                ],
+                "ipa": [
+                    "fyme"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "fumo"
+                ],
+                "ipa": [
+                    "fumo"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "fumo"
+                ],
+                "ipa": [
+                    "fumo"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "fum"
+                ],
+                "ipa": [
+                    "fum"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "humo"
+                ],
+                "ipa": [
+                    "umo"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "fūmus"
+                ],
+                "ipa": [
+                    "fumos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "STAND": {
+        "concept": "stand",
+        "gloss": "STAND",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "stāre"
+                ],
+                "ipa": [
+                    "starɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "STAR": {
+        "concept": "star",
+        "gloss": "STAR",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "étoile"
+                ],
+                "ipa": [
+                    "etwaj"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "stella"
+                ],
+                "ipa": [
+                    "stelːa"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "estrela"
+                ],
+                "ipa": [
+                    "ɛʃtɾɛlɐ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "stea"
+                ],
+                "ipa": [
+                    "stea"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "estrella"
+                ],
+                "ipa": [
+                    "estɾeʝa"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "stēlla"
+                ],
+                "ipa": [
+                    "stelːa"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "STONE": {
+        "concept": "stone",
+        "gloss": "STONE",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "lapis"
+                ],
+                "ipa": [
+                    "lapes"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "SUN": {
+        "concept": "sun",
+        "gloss": "SUN",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "soleil"
+                ],
+                "ipa": [
+                    "sɔlɛj"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "sole"
+                ],
+                "ipa": [
+                    "sole"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "sol"
+                ],
+                "ipa": [
+                    "sol"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "soare"
+                ],
+                "ipa": [
+                    "soare"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "sol"
+                ],
+                "ipa": [
+                    "sol"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "sōl"
+                ],
+                "ipa": [
+                    "sol"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "SWIM": {
+        "concept": "swim",
+        "gloss": "SWIM",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "nager"
+                ],
+                "ipa": [
+                    "naʒe"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "nuotare"
+                ],
+                "ipa": [
+                    "nuotare"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "nadar"
+                ],
+                "ipa": [
+                    "nɐdɐɾ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "a înota"
+                ],
+                "ipa": [
+                    "ɨnota"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "nadar"
+                ],
+                "ipa": [
+                    "nadaɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "nāre"
+                ],
+                "ipa": [
+                    "narɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "TAIL": {
+        "concept": "tail",
+        "gloss": "TAIL",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "queue"
+                ],
+                "ipa": [
+                    "kø"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "coda"
+                ],
+                "ipa": [
+                    "koda"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "coadă"
+                ],
+                "ipa": [
+                    "koadə"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "cola"
+                ],
+                "ipa": [
+                    "kola"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "cauda"
+                ],
+                "ipa": [
+                    "kawda"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "TONGUE": {
+        "concept": "tongue",
+        "gloss": "TONGUE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "langue"
+                ],
+                "ipa": [
+                    "lɑ̃ɡ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "lingua"
+                ],
+                "ipa": [
+                    "linɡua"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "lingua"
+                ],
+                "ipa": [
+                    "lĩɡwɐ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "limbă"
+                ],
+                "ipa": [
+                    "limbə"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "lengua"
+                ],
+                "ipa": [
+                    "lenɡwa"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "lingua"
+                ],
+                "ipa": [
+                    "leŋɡʷa"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "TOOTH": {
+        "concept": "tooth",
+        "gloss": "TOOTH",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "dent"
+                ],
+                "ipa": [
+                    "dɑ̃"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "dente"
+                ],
+                "ipa": [
+                    "dente"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "dente"
+                ],
+                "ipa": [
+                    "dɛntɛ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "dinte"
+                ],
+                "ipa": [
+                    "dinte"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "diente"
+                ],
+                "ipa": [
+                    "djente"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "dens"
+                ],
+                "ipa": [
+                    "des"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "TREE": {
+        "concept": "tree",
+        "gloss": "TREE",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "arbre"
+                ],
+                "ipa": [
+                    "aʀbʀ"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "albero"
+                ],
+                "ipa": [
+                    "albero"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "árvore"
+                ],
+                "ipa": [
+                    "aɾvoɾɛ"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "árbol"
+                ],
+                "ipa": [
+                    "aɾbol"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "arbor"
+                ],
+                "ipa": [
+                    "arbɔr"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "TWO": {
+        "concept": "two",
+        "gloss": "TWO",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "deux"
+                ],
+                "ipa": [
+                    "dø"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "due"
+                ],
+                "ipa": [
+                    "due"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "dois"
+                ],
+                "ipa": [
+                    "dojʃ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "doi"
+                ],
+                "ipa": [
+                    "doi"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "dos"
+                ],
+                "ipa": [
+                    "dos"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "duo"
+                ],
+                "ipa": [
+                    "doɔ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "HOT": {
+        "concept": "hot",
+        "gloss": "HOT",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "chaud"
+                ],
+                "ipa": [
+                    "ʃo"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "caldo"
+                ],
+                "ipa": [
+                    "kaldo"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "quente"
+                ],
+                "ipa": [
+                    "kʷɛntɛ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "cald"
+                ],
+                "ipa": [
+                    "kald"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "caliente"
+                ],
+                "ipa": [
+                    "kaljente"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "calidus"
+                ],
+                "ipa": [
+                    "kaledos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "WATER": {
+        "concept": "water",
+        "gloss": "WATER",
+        "languages": {
+            "French": {
+                "ortho": [
+                    "eau"
+                ],
+                "ipa": [
+                    "o"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "acqua"
+                ],
+                "ipa": [
+                    "akkua"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "água"
+                ],
+                "ipa": [
+                    "aɡɐ"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "apă"
+                ],
+                "ipa": [
+                    "apə"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "agua"
+                ],
+                "ipa": [
+                    "aɡwa"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "aqua"
+                ],
+                "ipa": [
+                    "akʷa"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "WHITE": {
+        "concept": "white",
+        "gloss": "WHITE",
+        "languages": {
+            "Romanian": {
+                "ortho": [
+                    "alb"
+                ],
+                "ipa": [
+                    "alb"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "albus"
+                ],
+                "ipa": [
+                    "albos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "WOMAN": {
+        "concept": "woman",
+        "gloss": "WOMAN",
+        "languages": {
+            "Portuguese": {
+                "ortho": [
+                    "mulher"
+                ],
+                "ipa": [
+                    "mulɛɾ"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "mujer"
+                ],
+                "ipa": [
+                    "muxeɾ"
+                ],
+                "status": "auto"
+            },
+            "Latin": {
+                "ortho": [
+                    "mulier"
+                ],
+                "ipa": [
+                    "moljɛr"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "YELLOW": {
+        "concept": "yellow",
+        "gloss": "YELLOW",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "flāuus"
+                ],
+                "ipa": [
+                    "flaβos"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    },
+    "CLAW": {
+        "concept": "claw",
+        "gloss": "CLAW",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "unguis"
+                ],
+                "ipa": [
+                    "oŋɡʷes"
+                ],
+                "status": "rules-vulgar-latin"
+            },
+            "Italian": {
+                "ortho": [
+                    "unghia"
+                ],
+                "ipa": [
+                    "unɡia"
+                ],
+                "status": "auto"
+            },
+            "French": {
+                "ortho": [
+                    "ongle"
+                ],
+                "ipa": [
+                    "ɔ̃ɡl"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "uña"
+                ],
+                "ipa": [
+                    "uɲa"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "unghie"
+                ],
+                "ipa": [
+                    "unɡie"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "unha"
+                ],
+                "ipa": [
+                    "uɲɐ"
+                ],
+                "status": "auto"
+            }
+        }
+    },
+    "FULL": {
+        "concept": "full",
+        "gloss": "FULL",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "plēnus"
+                ],
+                "ipa": [
+                    "plenos"
+                ],
+                "status": "rules-vulgar-latin"
+            },
+            "Italian": {
+                "ortho": [
+                    "pieno"
+                ],
+                "ipa": [
+                    "pieno"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "plin"
+                ],
+                "ipa": [
+                    "plin"
+                ],
+                "status": "auto"
+            },
+            "French": {
+                "ortho": [
+                    "plein"
+                ],
+                "ipa": [
+                    "plɛ̃"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "lleno"
+                ],
+                "ipa": [
+                    "ʝeno"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "cheio"
+                ],
+                "ipa": [
+                    "ʃejo"
+                ],
+                "status": "auto"
+            }
+        }
+    },
+    "HORN": {
+        "concept": "horn",
+        "gloss": "HORN",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "cornū"
+                ],
+                "ipa": [
+                    "kɔrnu"
+                ],
+                "status": "rules-vulgar-latin"
+            },
+            "Romanian": {
+                "ortho": [
+                    "corn"
+                ],
+                "ipa": [
+                    "korn"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "cuerno"
+                ],
+                "ipa": [
+                    "kweɾno"
+                ],
+                "status": "auto"
+            },
+            "French": {
+                "ortho": [
+                    "corne"
+                ],
+                "ipa": [
+                    "kɔʀn"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "corno"
+                ],
+                "ipa": [
+                    "korno"
+                ],
+                "status": "auto"
+            }
+        }
+    },
+    "KNEE": {
+        "concept": "knee",
+        "gloss": "KNEE",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "genu"
+                ],
+                "ipa": [
+                    "ɡɛno"
+                ],
+                "status": "rules-vulgar-latin"
+            },
+            "Italian": {
+                "ortho": [
+                    "ginocchio"
+                ],
+                "ipa": [
+                    "d͡ʒinokːio"
+                ],
+                "status": "auto"
+            },
+            "French": {
+                "ortho": [
+                    "genou"
+                ],
+                "ipa": [
+                    "ʒənu"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "genunchiu"
+                ],
+                "ipa": [
+                    "d͡ʒenunkiu"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "joelho"
+                ],
+                "ipa": [
+                    "ʒueʎo"
+                ],
+                "status": "auto"
+            }
+        }
+    },
+    "MOON": {
+        "concept": "moon",
+        "gloss": "MOON",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "lūna"
+                ],
+                "ipa": [
+                    "luna"
+                ],
+                "status": "rules-vulgar-latin"
+            },
+            "Romanian": {
+                "ortho": [
+                    "lună"
+                ],
+                "ipa": [
+                    "lunə"
+                ],
+                "status": "auto"
+            },
+            "French": {
+                "ortho": [
+                    "lune"
+                ],
+                "ipa": [
+                    "lyn"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "luna"
+                ],
+                "ipa": [
+                    "luna"
+                ],
+                "status": "auto"
+            },
+            "Italian": {
+                "ortho": [
+                    "luna"
+                ],
+                "ipa": [
+                    "luna"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "lua"
+                ],
+                "ipa": [
+                    "luɐ"
+                ],
+                "status": "auto"
+            }
+        }
+    },
+    "ROUND": {
+        "concept": "round",
+        "gloss": "ROUND",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "rotundus"
+                ],
+                "ipa": [
+                    "rɔtondos"
+                ],
+                "status": "rules-vulgar-latin"
+            },
+            "Italian": {
+                "ortho": [
+                    "tondo"
+                ],
+                "ipa": [
+                    "tondo"
+                ],
+                "status": "auto"
+            },
+            "Spanish": {
+                "ortho": [
+                    "redondo"
+                ],
+                "ipa": [
+                    "ɾedondo"
+                ],
+                "status": "auto"
+            },
+            "Romanian": {
+                "ortho": [
+                    "rotund"
+                ],
+                "ipa": [
+                    "rotund"
+                ],
+                "status": "auto"
+            },
+            "French": {
+                "ortho": [
+                    "rond"
+                ],
+                "ipa": [
+                    "ʀɔ̃"
+                ],
+                "status": "auto"
+            },
+            "Portuguese": {
+                "ortho": [
+                    "redondo"
+                ],
+                "ipa": [
+                    "ʁɛdondo"
+                ],
+                "status": "auto"
+            }
+        }
+    },
+    "WALK": {
+        "concept": "walk",
+        "gloss": "WALK",
+        "languages": {
+            "Latin": {
+                "ortho": [
+                    "īre"
+                ],
+                "ipa": [
+                    "irɛ"
+                ],
+                "status": "rules-vulgar-latin"
+            }
+        }
+    }
+}

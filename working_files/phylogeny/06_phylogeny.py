@@ -1,6 +1,11 @@
+"""
+06_phylogeny.py
+FIXED: Uses Neighbor-Joining (NJ). Phonetic distances are normalized 
+by alignment width. Gap-to-phoneme distance is updated to 1.0 (Issue 14).
+"""
 import json
 import panphon
-import pandas as pd # Added for easy matrix handling
+import pandas as pd
 from Bio import Phylo
 from Bio.Phylo.TreeConstruction import DistanceMatrix, DistanceTreeConstructor
 from pathlib import Path
@@ -13,13 +18,15 @@ ft = panphon.FeatureTable()
 def get_phonetic_distance(t1, t2):
     """Calculates articulatory distance between two tokens."""
     if t1 == t2: return 0.0
-    if t1 == "-" or t2 == "-": return 0.5 
     
+    # CRITICAL FIX 14: A gap vs a phoneme represents a full insertion/deletion.
+    # We assign 1.0 (the max feature distance) instead of an arbitrary 0.5.
+    if t1 == "-" or t2 == "-": return 1.0
+
     try:
-        # Use weighted_feature_distance for better resolution on phoneme differences
         dist = ft.weighted_feature_distance(t1, t2)
     except Exception:
-        dist = 1.0 # Fallback for unknown symbols
+        dist = 1.0 # Fallback
     return dist
 
 def run_phylogeny():
@@ -31,18 +38,18 @@ def run_phylogeny():
     dist_sum = {l: {l2: 0.0 for l2 in languages} for l in languages}
     count_sum = 0
 
-    print("Calculating inter-language distances...")
+    print("Calculating normalized inter-language distances...")
     for concept, entry in data.items():
         alignment = entry["alignment"]
         width = entry["matrix_width"]
+        if width == 0: continue
         
         for l1 in languages:
             for l2 in languages:
                 if l1 in alignment and l2 in alignment:
-                    # Calculate distance across all slots in the aligned matrix
-                    d = sum(get_phonetic_distance(alignment[l1][i], alignment[l2][i]) 
-                            for i in range(width))
-                    dist_sum[l1][l2] += d
+                    raw_d = sum(get_phonetic_distance(alignment[l1][i], alignment[l2][i]) for i in range(width))
+                    dist_sum[l1][l2] += (raw_d / width)
+                    
         count_sum += 1
 
     # 1. Create a Full Square Matrix for the CSV
@@ -51,7 +58,6 @@ def run_phylogeny():
         row = [dist_sum[l1][l2] / count_sum for l2 in languages]
         full_matrix_data.append(row)
 
-    # Save to CSV using Pandas for easy formatting
     df = pd.DataFrame(full_matrix_data, index=languages, columns=languages)
     df.to_csv(MATRIX_OUTPUT)
     print(f"Success! Distance matrix saved to {MATRIX_OUTPUT}")
@@ -65,12 +71,13 @@ def run_phylogeny():
                 row.append(dist_sum[l1][l2] / count_sum)
         lower_triangular.append(row)
 
-    # Build and Draw the Tree
+    # 3. Build and Draw the Tree
     dm = DistanceMatrix(names=languages, matrix=lower_triangular)
     constructor = DistanceTreeConstructor()
-    tree = constructor.upgma(dm)
+    
+    tree = constructor.nj(dm)
 
-    print("\n--- Language Reconstruction Tree ---")
+    print("\n--- Language Reconstruction Tree (Neighbor-Joining) ---")
     Phylo.draw_ascii(tree)
 
 if __name__ == "__main__":

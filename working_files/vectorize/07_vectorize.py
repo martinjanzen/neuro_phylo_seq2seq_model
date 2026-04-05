@@ -1,58 +1,75 @@
+"""
+07_vectorize.py
+FIXED: Gaps are now represented as [0.0] * 24 (Issue 14).
+This aligns with Panphon's trinary semantics, where 0.0 means 'unspecified', 
+preventing the LSTM from trying to interpret 0.5 as a partial articulatory feature.
+"""
 import json
 import unicodedata
 import panphon
 import torch
 from pathlib import Path
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-# --- Config ---
-INPUT_PATH = Path("./aligned_msa_data.json")
-OUTPUT_PATH = Path("./vectorized_dataset.pt")
+# --- Academic Configuration ---
+INPUT_PATH = Path("aligned_msa_data.json")
+OUTPUT_PATH = Path("model/vectorized_dataset.pt") 
 LANGUAGES = ["French", "Italian", "Portuguese", "Romanian", "Spanish"]
-
+TARGET_DIM = 24
 ft = panphon.FeatureTable()
-# Standardize the dimension based on a known good segment
-TARGET_DIM = len(ft.word_to_vector_list('a')[0])
 
-def clean_token(t):
-    # 1. Normalize unicode (handles some diacritic issues)
-    t = unicodedata.normalize('NFC', t)
-    # 2. Handle geminates (e.g., 'ʀʀ' -> 'ʀ')
-    if len(t) == 2 and t[0] == t[1]:
-        return t[0]
-    # 3. Strip problematic diacritics if panphon still fails
-    # (Optional: can add more specific replacements here)
-    return t
+# Tracking API health
+metrics = {"total_tokens": 0, "successful_vectors": 0, "errors": []}
 
 def get_feature_vector(token, is_gap=False):
-    if is_gap:
-        return [0.5] * TARGET_DIM
+    # CRITICAL FIX 14: Gap is universally unspecified (0.0), not 0.5
+    if is_gap: return [0.0] * TARGET_DIM
     
     char_map = {'+': 1.0, '-': -1.0, '0': 0.0}
-    token = clean_token(token) # Pre-clean pass
+    metrics["total_tokens"] += 1
     
     try:
-        features = ft.fts(token)
-        if features:
-            vec = [char_map.get(x, 0.0) for x in features.strings()]
-            if len(vec) < TARGET_DIM:
-                vec += [0.0] * (TARGET_DIM - len(vec))
-            return vec[:TARGET_DIM]
+        token = unicodedata.normalize('NFC', token)
         
-        # Secondary fallback: if clean_token didn't work, try stripping diacritics
-        # This handles tokens like 'ə̂' -> 'ə'
-        base_t = "".join([c for c in unicodedata.normalize('NFD', token) 
-                         if unicodedata.category(c) != 'Mn'])
-        features = ft.fts(base_t)
-        if features:
-            vec = [char_map.get(x, 0.0) for x in features.strings()]
-            if len(vec) < TARGET_DIM: vec += [0.0] * (TARGET_DIM - len(vec))
-            return vec[:TARGET_DIM]
+        # STRATEGY 1: Modern Panphon API (>= 0.3)
+        if hasattr(ft, 'word_fts'):
+            segs = ft.word_fts(token)
+            if segs:
+                vecs = []
+                for seg in segs:
+                    if hasattr(seg, 'numeric'):
+                        vecs.append(seg.numeric())
+                    elif hasattr(seg, 'values'):
+                        vecs.append(list(seg.values()))
+                    else:
+                        vecs.append([float(x) if isinstance(x, (int, float)) else char_map.get(str(x), 0.0) for x in seg])
+                
+                avg_vec = [sum(col)/len(col) for col in zip(*vecs)]
+                metrics["successful_vectors"] += 1
+                return (avg_vec + [0.0]*TARGET_DIM)[:TARGET_DIM]
+
+        # STRATEGY 2: Legacy Panphon API
+        if hasattr(ft, 'fts'):
+            segs = ft.fts(token)
+            if segs:
+                if not isinstance(segs, list):
+                    segs = [segs]
+                    
+                vecs = []
+                for seg in segs:
+                    if hasattr(seg, 'strings'):
+                        v = [char_map.get(x, 0.0) for x in seg.strings()]
+                    else:
+                        v = [char_map.get(x, 0.0) for x in seg]
+                    vecs.append(v)
+                    
+                avg_vec = [sum(col)/len(col) for col in zip(*vecs)]
+                metrics["successful_vectors"] += 1
+                return (avg_vec + [0.0]*TARGET_DIM)[:TARGET_DIM]
+
+    except Exception as e:
+        if len(metrics["errors"]) < 5:
+            metrics["errors"].append(f"Token '{token}' -> {type(e).__name__}: {e}")
             
-    except Exception:
-        pass
-        
     return [0.0] * TARGET_DIM
 
 def run_vectorization():
@@ -60,82 +77,51 @@ def run_vectorization():
     with open(INPUT_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    max_width = max(entry["matrix_width"] for entry in data.values())
-    print(f"Max matrix width: {max_width}")
-    print(f"Enforcing Feature Dimension: {TARGET_DIM}")
+    GLOBAL_MAX_WIDTH = max(entry["matrix_width"] for entry in data.values())
+    print(f"Global Alignment Width: {GLOBAL_MAX_WIDTH}")
 
     dataset = []
 
     for concept, entry in data.items():
         alignment = entry["alignment"]
         
-        # 1. Build Input Matrix (5 Languages x Max_Width x TARGET_DIM)
         input_list = []
         for lang in LANGUAGES:
-            lang_vectors = []
-            # Default to gaps if language is missing for a concept
             tokens = alignment.get(lang, ["-"] * entry["matrix_width"])
+            lang_vectors = []
             
-            for i in range(max_width):
+            for i in range(GLOBAL_MAX_WIDTH):
                 if i < len(tokens):
-                    t = tokens[i]
-                    lang_vectors.append(get_feature_vector(t, is_gap=(t == "-")))
+                    lang_vectors.append(get_feature_vector(tokens[i], tokens[i]=="-"))
                 else:
                     lang_vectors.append([0.0] * TARGET_DIM)
             input_list.append(lang_vectors)
 
-        # 2. Build Target Sequence (Latin)
-        target_vectors = []
+        target_list = []
         latin_tokens = alignment.get("Latin", ["-"] * entry["matrix_width"])
-        for i in range(max_width):
+        for i in range(GLOBAL_MAX_WIDTH):
             if i < len(latin_tokens):
-                t = latin_tokens[i]
-                target_vectors.append(get_feature_vector(t, is_gap=(t == "-")))
+                target_list.append(get_feature_vector(latin_tokens[i], latin_tokens[i]=="-"))
             else:
-                target_vectors.append([0.0] * TARGET_DIM)
+                target_list.append([0.0] * TARGET_DIM)
 
         dataset.append({
             "concept": concept,
-            "X": torch.tensor(input_list, dtype=torch.float32),
-            "Y": torch.tensor(target_vectors, dtype=torch.float32)
+            "X": torch.tensor(input_list, dtype=torch.float32), 
+            "Y": torch.tensor(target_list, dtype=torch.float32) 
         })
 
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     torch.save(dataset, OUTPUT_PATH)
-    print(f"\nSuccess! Vectorized {len(dataset)} concepts.")
-    print(f"Dataset saved to {OUTPUT_PATH}")
-
-def verify_vec():
-    dataset = torch.load("./vectorized_dataset.pt")
-
-    # Pick a random sample (e.g., concept 'SALT')
-    sample = dataset[0]
-    X = sample['X']
-
-    print(f"Tensor Shape: {X.shape}") # Should be (5, max_width, 22)
-    print(f"Unique values in X: {torch.unique(X)}") 
-    # Verify if 0.5 is present for your gaps!
-    if 0.5 in X:
-        print("✓ Gap handling (0.5) verified.")
-
-    # Check for all-zero rows (simulated missing data or padding)
-    if torch.all(X[0, -1, :] == 0):
-        print("✓ Padding (0.0) verified.")
-
-def heatmap():
-    dataset = torch.load("./vectorized_dataset.pt")
-    # Let's look at index 0 (e.g., ASH)
-    # X shape is (Languages, Sequence, Features)
-    # We'll plot the first language (French)
-    french_ash = dataset[0]['X'][0].numpy() 
-
-    plt.figure(figsize=(12, 6))
-    sns.heatmap(french_ash, cmap="YlGnBu", annot=False)
-    plt.title(f"Feature Matrix for {dataset[0]['concept']} (French)")
-    plt.xlabel("22 PanPhon Features")
-    plt.ylabel("Time / Phoneme Index")
-    plt.show()
+    
+    yield_rate = (metrics["successful_vectors"] / max(1, metrics["total_tokens"])) * 100
+    print(f"Success: Vectorized {len(dataset)} concepts with global width {GLOBAL_MAX_WIDTH}")
+    print(f"API Health Check: {yield_rate:.1f}% non-zero vector yield ({metrics['successful_vectors']}/{metrics['total_tokens']})")
+    
+    if metrics["errors"]:
+        print("\n[Debug] Encountered errors during vectorization:")
+        for err in metrics["errors"]:
+            print(f"  - {err}")
 
 if __name__ == "__main__":
     run_vectorization()
-    verify_vec()
-    heatmap()
