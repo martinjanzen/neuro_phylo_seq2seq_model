@@ -1,0 +1,3602 @@
+{
+    "ASH": {
+        "concept": "ash",
+        "gloss": "ASH",
+        "languages": {
+            "French": [
+                "cendre"
+            ],
+            "Italian": [
+                "cenere"
+            ],
+            "Portuguese": [
+                "cinza"
+            ],
+            "Romanian": [
+                "cenușă"
+            ],
+            "Spanish": [
+                "ceniza"
+            ],
+            "Latin": [
+                "cinis"
+            ]
+        }
+    },
+    "BACK": {
+        "concept": "back",
+        "gloss": "BACK",
+        "languages": {
+            "Spanish": [
+                "espalda"
+            ],
+            "Romanian": [
+                "spate"
+            ],
+            "Latin": [
+                "tergum"
+            ],
+            "Portuguese": [
+                "costas"
+            ],
+            "French": [
+                "dos"
+            ],
+            "Italian": [
+                "schiena"
+            ]
+        }
+    },
+    "BAD": {
+        "concept": "bad",
+        "gloss": "BAD",
+        "languages": {
+            "French": [
+                "mauvais"
+            ],
+            "Portuguese": [
+                "mau"
+            ],
+            "Spanish": [
+                "malo"
+            ],
+            "Latin": [
+                "malus"
+            ],
+            "Romanian": [
+                "rău"
+            ],
+            "Italian": [
+                "cattivo"
+            ]
+        }
+    },
+    "BARK": {
+        "concept": "bark",
+        "gloss": "BARK",
+        "languages": {
+            "French": [
+                "écorce"
+            ],
+            "Romanian": [
+                "scoarță"
+            ],
+            "Spanish": [
+                "corteza"
+            ],
+            "Latin": [
+                "cortex"
+            ],
+            "Italian": [
+                "corteccia"
+            ],
+            "Portuguese": [
+                "casca"
+            ]
+        }
+    },
+    "BELLY": {
+        "concept": "belly",
+        "gloss": "BELLY",
+        "languages": {
+            "Portuguese": [
+                "barriga"
+            ],
+            "Spanish": [
+                "barriga"
+            ],
+            "Latin": [
+                "uenter"
+            ],
+            "Romanian": [
+                "burtă"
+            ],
+            "French": [
+                "ventre"
+            ],
+            "Italian": [
+                "pancia"
+            ]
+        }
+    },
+    "BIG": {
+        "concept": "big",
+        "gloss": "BIG",
+        "languages": {
+            "French": [
+                "grand"
+            ],
+            "Italian": [
+                "grande"
+            ],
+            "Portuguese": [
+                "grande"
+            ],
+            "Spanish": [
+                "grande"
+            ],
+            "Latin": [
+                "magnus"
+            ],
+            "Romanian": [
+                "mare"
+            ]
+        }
+    },
+    "BIRD": {
+        "concept": "bird",
+        "gloss": "BIRD",
+        "languages": {
+            "French": [
+                "oiseau"
+            ],
+            "Italian": [
+                "uccello"
+            ],
+            "Portuguese": [
+                "ave"
+            ],
+            "Spanish": [
+                "ave"
+            ],
+            "Latin": [
+                "auis"
+            ],
+            "Romanian": [
+                "pasăre"
+            ]
+        }
+    },
+    "BITE": {
+        "concept": "bite",
+        "gloss": "BITE",
+        "languages": {
+            "French": [
+                "mordre"
+            ],
+            "Italian": [
+                "mordere"
+            ],
+            "Portuguese": [
+                "morder"
+            ],
+            "Romanian": [
+                "mușca"
+            ],
+            "Spanish": [
+                "morder"
+            ],
+            "Latin": [
+                "mordēre"
+            ]
+        }
+    },
+    "BLACK": {
+        "concept": "black",
+        "gloss": "BLACK",
+        "languages": {
+            "French": [
+                "noir"
+            ],
+            "Italian": [
+                "nero"
+            ],
+            "Romanian": [
+                "negru"
+            ],
+            "Spanish": [
+                "negro"
+            ],
+            "Latin": [
+                "niger"
+            ],
+            "Portuguese": [
+                "preto"
+            ]
+        }
+    },
+    "BLOOD": {
+        "concept": "blood",
+        "gloss": "BLOOD",
+        "languages": {
+            "French": [
+                "sang"
+            ],
+            "Italian": [
+                "sangue"
+            ],
+            "Portuguese": [
+                "sangue"
+            ],
+            "Romanian": [
+                "sânge"
+            ],
+            "Spanish": [
+                "sangre"
+            ],
+            "Latin": [
+                "sanguīs"
+            ]
+        }
+    },
+    "BONE": {
+        "concept": "bone",
+        "gloss": "BONE",
+        "languages": {
+            "French": [
+                "os"
+            ],
+            "Italian": [
+                "osso"
+            ],
+            "Portuguese": [
+                "osso"
+            ],
+            "Romanian": [
+                "os"
+            ],
+            "Spanish": [
+                "hueso"
+            ],
+            "Latin": [
+                "os"
+            ]
+        }
+    },
+    "BREATHE": {
+        "concept": "breathe",
+        "gloss": "BREATHE",
+        "languages": {
+            "French": [
+                "respirer"
+            ],
+            "Italian": [
+                "respirare"
+            ],
+            "Portuguese": [
+                "respirar"
+            ],
+            "Spanish": [
+                "respirar"
+            ],
+            "Latin": [
+                "spīrāre"
+            ],
+            "Romanian": [
+                "respira"
+            ]
+        }
+    },
+    "BURN": {
+        "concept": "burn",
+        "gloss": "BURN",
+        "languages": {
+            "Portuguese": [
+                "arder"
+            ],
+            "Romanian": [
+                "arde"
+            ],
+            "Latin": [
+                "ardēre"
+            ],
+            "French": [
+                "brûler"
+            ],
+            "Italian": [
+                "bruciare"
+            ],
+            "Spanish": [
+                "quemar"
+            ]
+        }
+    },
+    "CLOUD": {
+        "concept": "cloud",
+        "gloss": "CLOUD",
+        "languages": {
+            "French": [
+                "nuage"
+            ],
+            "Italian": [
+                "nuvola"
+            ],
+            "Portuguese": [
+                "nuvem"
+            ],
+            "Romanian": [
+                "nor"
+            ],
+            "Spanish": [
+                "nube"
+            ],
+            "Latin": [
+                "nūbēs"
+            ]
+        }
+    },
+    "COLD": {
+        "concept": "cold",
+        "gloss": "COLD",
+        "languages": {
+            "French": [
+                "froid"
+            ],
+            "Italian": [
+                "freddo"
+            ],
+            "Portuguese": [
+                "frio"
+            ],
+            "Spanish": [
+                "frío"
+            ],
+            "Latin": [
+                "frīgidus"
+            ],
+            "Romanian": [
+                "rece"
+            ]
+        }
+    },
+    "COME": {
+        "concept": "come",
+        "gloss": "COME",
+        "languages": {
+            "French": [
+                "venir"
+            ],
+            "Italian": [
+                "venire"
+            ],
+            "Portuguese": [
+                "vir"
+            ],
+            "Romanian": [
+                "veni"
+            ],
+            "Spanish": [
+                "venir"
+            ],
+            "Latin": [
+                "uenīre"
+            ]
+        }
+    },
+    "COUNT": {
+        "concept": "count",
+        "gloss": "COUNT",
+        "languages": {
+            "French": [
+                "compter"
+            ],
+            "Italian": [
+                "contare"
+            ],
+            "Portuguese": [
+                "contar"
+            ],
+            "Spanish": [
+                "contar"
+            ],
+            "Latin": [
+                "numerāre"
+            ],
+            "Romanian": [
+                "număra"
+            ]
+        }
+    },
+    "DAY (NOT NIGHT)": {
+        "concept": "day (not night)",
+        "gloss": "DAY (NOT NIGHT)",
+        "languages": {
+            "French": [
+                "jour"
+            ],
+            "Italian": [
+                "giorno"
+            ],
+            "Portuguese": [
+                "dia"
+            ],
+            "Romanian": [
+                "zi"
+            ],
+            "Spanish": [
+                "día"
+            ],
+            "Latin": [
+                "diēs"
+            ]
+        }
+    },
+    "DIE": {
+        "concept": "die",
+        "gloss": "DIE",
+        "languages": {
+            "French": [
+                "mourir"
+            ],
+            "Italian": [
+                "morire"
+            ],
+            "Portuguese": [
+                "morrer"
+            ],
+            "Romanian": [
+                "muri"
+            ],
+            "Spanish": [
+                "morir"
+            ],
+            "Latin": [
+                "morī"
+            ]
+        }
+    },
+    "DIG": {
+        "concept": "dig",
+        "gloss": "DIG",
+        "languages": {
+            "Portuguese": [
+                "cavar"
+            ],
+            "Spanish": [
+                "cavar"
+            ],
+            "Italian": [
+                "scavare"
+            ],
+            "Latin": [
+                "fodere"
+            ],
+            "Romanian": [
+                "săpa"
+            ],
+            "French": [
+                "creuser"
+            ]
+        }
+    },
+    "DIRTY": {
+        "concept": "dirty",
+        "gloss": "DIRTY",
+        "languages": {
+            "Portuguese": [
+                "sujo"
+            ],
+            "Spanish": [
+                "sucio"
+            ],
+            "Latin": [
+                "sordidus"
+            ],
+            "Romanian": [
+                "murdar"
+            ],
+            "French": [
+                "sale"
+            ],
+            "Italian": [
+                "sporco"
+            ]
+        }
+    },
+    "DOG": {
+        "concept": "dog",
+        "gloss": "DOG",
+        "languages": {
+            "French": [
+                "chien"
+            ],
+            "Italian": [
+                "cane"
+            ],
+            "Portuguese": [
+                "cão"
+            ],
+            "Romanian": [
+                "câine"
+            ],
+            "Latin": [
+                "canis"
+            ],
+            "Spanish": [
+                "perro"
+            ]
+        }
+    },
+    "DRINK": {
+        "concept": "drink",
+        "gloss": "DRINK",
+        "languages": {
+            "French": [
+                "boire"
+            ],
+            "Italian": [
+                "bere"
+            ],
+            "Portuguese": [
+                "beber"
+            ],
+            "Romanian": [
+                "bea"
+            ],
+            "Spanish": [
+                "beber"
+            ],
+            "Latin": [
+                "bibere"
+            ]
+        }
+    },
+    "DRY": {
+        "concept": "dry",
+        "gloss": "DRY",
+        "languages": {
+            "French": [
+                "sec"
+            ],
+            "Portuguese": [
+                "seco"
+            ],
+            "Spanish": [
+                "seco"
+            ],
+            "Latin": [
+                "siccus"
+            ],
+            "Romanian": [
+                "uscat"
+            ],
+            "Italian": [
+                "secco"
+            ]
+        }
+    },
+    "DUST": {
+        "concept": "dust",
+        "gloss": "DUST",
+        "languages": {
+            "French": [
+                "poussière"
+            ],
+            "Italian": [
+                "polvere"
+            ],
+            "Portuguese": [
+                "pó"
+            ],
+            "Spanish": [
+                "polvo"
+            ],
+            "Latin": [
+                "puluis"
+            ],
+            "Romanian": [
+                "praf"
+            ]
+        }
+    },
+    "EAR": {
+        "concept": "ear",
+        "gloss": "EAR",
+        "languages": {
+            "French": [
+                "oreille"
+            ],
+            "Italian": [
+                "orecchio"
+            ],
+            "Portuguese": [
+                "orelha"
+            ],
+            "Romanian": [
+                "ureche"
+            ],
+            "Spanish": [
+                "oreja"
+            ],
+            "Latin": [
+                "auris"
+            ]
+        }
+    },
+    "EARTH": {
+        "concept": "earth",
+        "gloss": "EARTH",
+        "languages": {
+            "French": [
+                "terre"
+            ],
+            "Italian": [
+                "terra"
+            ],
+            "Portuguese": [
+                "terra"
+            ],
+            "Spanish": [
+                "tierra"
+            ],
+            "Latin": [
+                "terra"
+            ],
+            "Romanian": [
+                "pământ"
+            ]
+        }
+    },
+    "EAT": {
+        "concept": "eat",
+        "gloss": "EAT",
+        "languages": {
+            "French": [
+                "manger"
+            ],
+            "Italian": [
+                "mangiare"
+            ],
+            "Romanian": [
+                "mânca"
+            ],
+            "Latin": [
+                "edere"
+            ],
+            "Portuguese": [
+                "comer"
+            ],
+            "Spanish": [
+                "comer"
+            ]
+        }
+    },
+    "EGG": {
+        "concept": "egg",
+        "gloss": "EGG",
+        "languages": {
+            "French": [
+                "oeuf"
+            ],
+            "Italian": [
+                "uovo"
+            ],
+            "Portuguese": [
+                "ovo"
+            ],
+            "Romanian": [
+                "ou"
+            ],
+            "Spanish": [
+                "huevo"
+            ],
+            "Latin": [
+                "ōuum"
+            ]
+        }
+    },
+    "EYE": {
+        "concept": "eye",
+        "gloss": "EYE",
+        "languages": {
+            "French": [
+                "oeil"
+            ],
+            "Italian": [
+                "occhio"
+            ],
+            "Portuguese": [
+                "olho"
+            ],
+            "Romanian": [
+                "ochi"
+            ],
+            "Spanish": [
+                "ojo"
+            ],
+            "Latin": [
+                "oculus"
+            ]
+        }
+    },
+    "FALL": {
+        "concept": "fall",
+        "gloss": "FALL",
+        "languages": {
+            "Italian": [
+                "cadere"
+            ],
+            "Portuguese": [
+                "cair"
+            ],
+            "Romanian": [
+                "cădea"
+            ],
+            "Spanish": [
+                "caer"
+            ],
+            "Latin": [
+                "cadere"
+            ],
+            "French": [
+                "tomber"
+            ]
+        }
+    },
+    "FAR": {
+        "concept": "far",
+        "gloss": "FAR",
+        "languages": {
+            "French": [
+                "loin"
+            ],
+            "Italian": [
+                "lontano"
+            ],
+            "Portuguese": [
+                "longe"
+            ],
+            "Latin": [
+                "longe"
+            ],
+            "Romanian": [
+                "departe"
+            ],
+            "Spanish": [
+                "lejos"
+            ]
+        }
+    },
+    "FEAR (BE AFRAID)": {
+        "concept": "fear (be afraid)",
+        "gloss": "FEAR (BE AFRAID)",
+        "languages": {
+            "French": [
+                "avoir peur"
+            ],
+            "Italian": [
+                "avere paura"
+            ],
+            "Latin": [
+                "timēre"
+            ],
+            "Romanian": [
+                "teme"
+            ],
+            "Portuguese": [
+                "temer"
+            ],
+            "Spanish": [
+                "temer"
+            ]
+        }
+    },
+    "FEATHER": {
+        "concept": "feather",
+        "gloss": "FEATHER",
+        "languages": {
+            "French": [
+                "plume"
+            ],
+            "Italian": [
+                "piuma"
+            ],
+            "Spanish": [
+                "pluma"
+            ],
+            "Latin": [
+                "plūma"
+            ],
+            "Romanian": [
+                "pană"
+            ],
+            "Portuguese": [
+                "pena"
+            ]
+        }
+    },
+    "FIGHT": {
+        "concept": "fight",
+        "gloss": "FIGHT",
+        "languages": {
+            "French": [
+                "se battre"
+            ],
+            "Italian": [
+                "combattere"
+            ],
+            "Romanian": [
+                "a se bate"
+            ],
+            "Latin": [
+                "pugnāre"
+            ],
+            "Portuguese": [
+                "lutar"
+            ],
+            "Spanish": [
+                "pelear"
+            ]
+        }
+    },
+    "FIRE": {
+        "concept": "fire",
+        "gloss": "FIRE",
+        "languages": {
+            "French": [
+                "feu"
+            ],
+            "Italian": [
+                "fuoco"
+            ],
+            "Portuguese": [
+                "fogo"
+            ],
+            "Romanian": [
+                "foc"
+            ],
+            "Spanish": [
+                "fuego"
+            ],
+            "Latin": [
+                "ignis"
+            ]
+        }
+    },
+    "FISH": {
+        "concept": "fish",
+        "gloss": "FISH",
+        "languages": {
+            "French": [
+                "poisson"
+            ],
+            "Italian": [
+                "pesce"
+            ],
+            "Portuguese": [
+                "peixe"
+            ],
+            "Romanian": [
+                "pește"
+            ],
+            "Spanish": [
+                "pez"
+            ],
+            "Latin": [
+                "piscis"
+            ]
+        }
+    },
+    "FIVE": {
+        "concept": "five",
+        "gloss": "FIVE",
+        "languages": {
+            "French": [
+                "cinq"
+            ],
+            "Italian": [
+                "cinque"
+            ],
+            "Portuguese": [
+                "cinco"
+            ],
+            "Romanian": [
+                "cinci"
+            ],
+            "Spanish": [
+                "cinco"
+            ],
+            "Latin": [
+                "quīnque"
+            ]
+        }
+    },
+    "FLOWER": {
+        "concept": "flower",
+        "gloss": "FLOWER",
+        "languages": {
+            "French": [
+                "fleur"
+            ],
+            "Italian": [
+                "fiore"
+            ],
+            "Portuguese": [
+                "flor"
+            ],
+            "Romanian": [
+                "floare"
+            ],
+            "Spanish": [
+                "flor"
+            ],
+            "Latin": [
+                "flōs"
+            ]
+        }
+    },
+    "FLY": {
+        "concept": "fly",
+        "gloss": "FLY",
+        "languages": {
+            "French": [
+                "voler"
+            ],
+            "Italian": [
+                "volare"
+            ],
+            "Portuguese": [
+                "voar"
+            ],
+            "Romanian": [
+                "a zbura"
+            ],
+            "Spanish": [
+                "volar"
+            ],
+            "Latin": [
+                "uolāre"
+            ]
+        }
+    },
+    "FOG": {
+        "concept": "fog",
+        "gloss": "FOG",
+        "languages": {
+            "Italian": [
+                "nebbia"
+            ],
+            "Portuguese": [
+                "nevoeiro"
+            ],
+            "Spanish": [
+                "niebla"
+            ],
+            "Latin": [
+                "nebula"
+            ],
+            "Romanian": [
+                "ceață"
+            ],
+            "French": [
+                "brouillard"
+            ]
+        }
+    },
+    "FOOT": {
+        "concept": "foot",
+        "gloss": "FOOT",
+        "languages": {
+            "French": [
+                "pied"
+            ],
+            "Italian": [
+                "piede"
+            ],
+            "Portuguese": [
+                "pé"
+            ],
+            "Romanian": [
+                "picior"
+            ],
+            "Spanish": [
+                "pie"
+            ],
+            "Latin": [
+                "pēs"
+            ]
+        }
+    },
+    "FOUR": {
+        "concept": "four",
+        "gloss": "FOUR",
+        "languages": {
+            "French": [
+                "quatre"
+            ],
+            "Italian": [
+                "quattro"
+            ],
+            "Portuguese": [
+                "quatro"
+            ],
+            "Romanian": [
+                "patru"
+            ],
+            "Spanish": [
+                "cuatro"
+            ],
+            "Latin": [
+                "quattuor"
+            ]
+        }
+    },
+    "FREEZE": {
+        "concept": "freeze",
+        "gloss": "FREEZE",
+        "languages": {
+            "French": [
+                "geler"
+            ],
+            "Portuguese": [
+                "gelar"
+            ],
+            "Spanish": [
+                "congelarse"
+            ],
+            "Latin": [
+                "gelāre"
+            ],
+            "Italian": [
+                "congelarsi"
+            ],
+            "Romanian": [
+                "îngheța"
+            ]
+        }
+    },
+    "FRUIT": {
+        "concept": "fruit",
+        "gloss": "FRUIT",
+        "languages": {
+            "French": [
+                "fruit"
+            ],
+            "Italian": [
+                "frutta"
+            ],
+            "Portuguese": [
+                "fruta"
+            ],
+            "Romanian": [
+                "fructe"
+            ],
+            "Spanish": [
+                "fruta"
+            ],
+            "Latin": [
+                "frūctus"
+            ]
+        }
+    },
+    "GIVE": {
+        "concept": "give",
+        "gloss": "GIVE",
+        "languages": {
+            "French": [
+                "donner"
+            ],
+            "Italian": [
+                "dare"
+            ],
+            "Portuguese": [
+                "dar"
+            ],
+            "Romanian": [
+                "a da"
+            ],
+            "Spanish": [
+                "dar"
+            ],
+            "Latin": [
+                "dare"
+            ]
+        }
+    },
+    "GOOD": {
+        "concept": "good",
+        "gloss": "GOOD",
+        "languages": {
+            "French": [
+                "bon"
+            ],
+            "Italian": [
+                "buono"
+            ],
+            "Portuguese": [
+                "bom"
+            ],
+            "Romanian": [
+                "bun"
+            ],
+            "Spanish": [
+                "bueno"
+            ],
+            "Latin": [
+                "bonus"
+            ]
+        }
+    },
+    "GRASS": {
+        "concept": "grass",
+        "gloss": "GRASS",
+        "languages": {
+            "French": [
+                "herbe"
+            ],
+            "Italian": [
+                "erba"
+            ],
+            "Portuguese": [
+                "erva"
+            ],
+            "Romanian": [
+                "iarbă"
+            ],
+            "Spanish": [
+                "hierba"
+            ],
+            "Latin": [
+                "herba"
+            ]
+        }
+    },
+    "GREEN": {
+        "concept": "green",
+        "gloss": "GREEN",
+        "languages": {
+            "French": [
+                "vert"
+            ],
+            "Italian": [
+                "verde"
+            ],
+            "Portuguese": [
+                "verde"
+            ],
+            "Romanian": [
+                "verde"
+            ],
+            "Spanish": [
+                "verde"
+            ],
+            "Latin": [
+                "uiridis"
+            ]
+        }
+    },
+    "HAIR": {
+        "concept": "hair",
+        "gloss": "HAIR",
+        "languages": {
+            "French": [
+                "cheveu"
+            ],
+            "Portuguese": [
+                "cabelo"
+            ],
+            "Latin": [
+                "capillī"
+            ],
+            "Italian": [
+                "capelli"
+            ],
+            "Romanian": [
+                "păr"
+            ],
+            "Spanish": [
+                "pelo"
+            ]
+        }
+    },
+    "HAND": {
+        "concept": "hand",
+        "gloss": "HAND",
+        "languages": {
+            "French": [
+                "main"
+            ],
+            "Italian": [
+                "mano"
+            ],
+            "Portuguese": [
+                "mão"
+            ],
+            "Romanian": [
+                "mână"
+            ],
+            "Spanish": [
+                "mano"
+            ],
+            "Latin": [
+                "manus"
+            ]
+        }
+    },
+    "HEAD": {
+        "concept": "head",
+        "gloss": "HEAD",
+        "languages": {
+            "Portuguese": [
+                "cabeça"
+            ],
+            "Romanian": [
+                "cap"
+            ],
+            "Spanish": [
+                "cabeza"
+            ],
+            "Latin": [
+                "caput"
+            ],
+            "French": [
+                "tête"
+            ],
+            "Italian": [
+                "testa"
+            ]
+        }
+    },
+    "HEAR": {
+        "concept": "hear",
+        "gloss": "HEAR",
+        "languages": {
+            "Portuguese": [
+                "ouvir"
+            ],
+            "Romanian": [
+                "a auzi"
+            ],
+            "Spanish": [
+                "oír"
+            ],
+            "Latin": [
+                "audīre"
+            ],
+            "French": [
+                "entendre"
+            ],
+            "Italian": [
+                "sentire"
+            ]
+        }
+    },
+    "HEART": {
+        "concept": "heart",
+        "gloss": "HEART",
+        "languages": {
+            "French": [
+                "cœur"
+            ],
+            "Italian": [
+                "cuore"
+            ],
+            "Portuguese": [
+                "coração"
+            ],
+            "Spanish": [
+                "corazón"
+            ],
+            "Latin": [
+                "cor"
+            ],
+            "Romanian": [
+                "inimă"
+            ]
+        }
+    },
+    "HEAVY": {
+        "concept": "heavy",
+        "gloss": "HEAVY",
+        "languages": {
+            "Italian": [
+                "pesante"
+            ],
+            "Portuguese": [
+                "pesado"
+            ],
+            "Spanish": [
+                "pesado"
+            ],
+            "Latin": [
+                "grauis"
+            ],
+            "Romanian": [
+                "greu"
+            ],
+            "French": [
+                "lourd"
+            ]
+        }
+    },
+    "HIT": {
+        "concept": "hit",
+        "gloss": "HIT",
+        "languages": {
+            "Spanish": [
+                "golpear"
+            ],
+            "Italian": [
+                "colpire"
+            ],
+            "Latin": [
+                "ferīre"
+            ],
+            "Romanian": [
+                "lovi"
+            ],
+            "Portuguese": [
+                "bater"
+            ],
+            "French": [
+                "frapper"
+            ]
+        }
+    },
+    "HUNT": {
+        "concept": "hunt",
+        "gloss": "HUNT",
+        "languages": {
+            "French": [
+                "chasser"
+            ],
+            "Italian": [
+                "cacciare"
+            ],
+            "Portuguese": [
+                "caçar"
+            ],
+            "Spanish": [
+                "cazar"
+            ],
+            "Latin": [
+                "uenārī"
+            ],
+            "Romanian": [
+                "vâna"
+            ]
+        }
+    },
+    "ICE": {
+        "concept": "ice",
+        "gloss": "ICE",
+        "languages": {
+            "French": [
+                "glace"
+            ],
+            "Italian": [
+                "ghiaccio"
+            ],
+            "Romanian": [
+                "gheață"
+            ],
+            "Latin": [
+                "glaciēs"
+            ],
+            "Portuguese": [
+                "gelo"
+            ],
+            "Spanish": [
+                "hielo"
+            ]
+        }
+    },
+    "KILL": {
+        "concept": "kill",
+        "gloss": "KILL",
+        "languages": {
+            "Italian": [
+                "uccidere"
+            ],
+            "Romanian": [
+                "a ucide"
+            ],
+            "Latin": [
+                "occīdere"
+            ],
+            "Portuguese": [
+                "matar"
+            ],
+            "French": [
+                "tuer"
+            ],
+            "Spanish": [
+                "matar"
+            ]
+        }
+    },
+    "KNOW": {
+        "concept": "know",
+        "gloss": "KNOW",
+        "languages": {
+            "French": [
+                "savoir"
+            ],
+            "Italian": [
+                "sapere"
+            ],
+            "Portuguese": [
+                "saber"
+            ],
+            "Spanish": [
+                "saber"
+            ],
+            "Latin": [
+                "scīre"
+            ],
+            "Romanian": [
+                "ști"
+            ]
+        }
+    },
+    "LAKE": {
+        "concept": "lake",
+        "gloss": "LAKE",
+        "languages": {
+            "French": [
+                "lac"
+            ],
+            "Italian": [
+                "lago"
+            ],
+            "Portuguese": [
+                "lago"
+            ],
+            "Romanian": [
+                "lac"
+            ],
+            "Spanish": [
+                "lago"
+            ],
+            "Latin": [
+                "lacus"
+            ]
+        }
+    },
+    "LAUGH": {
+        "concept": "laugh",
+        "gloss": "LAUGH",
+        "languages": {
+            "French": [
+                "rire"
+            ],
+            "Italian": [
+                "ridere"
+            ],
+            "Portuguese": [
+                "rir"
+            ],
+            "Romanian": [
+                "a râde"
+            ],
+            "Spanish": [
+                "reírse"
+            ],
+            "Latin": [
+                "rīdēre"
+            ]
+        }
+    },
+    "LEAF": {
+        "concept": "leaf",
+        "gloss": "LEAF",
+        "languages": {
+            "French": [
+                "feuille"
+            ],
+            "Italian": [
+                "foglia"
+            ],
+            "Portuguese": [
+                "folha"
+            ],
+            "Spanish": [
+                "hoja"
+            ],
+            "Latin": [
+                "folium"
+            ],
+            "Romanian": [
+                "frunză"
+            ]
+        }
+    },
+    "LEFT": {
+        "concept": "left",
+        "gloss": "LEFT",
+        "languages": {
+            "Portuguese": [
+                "esquerdo"
+            ],
+            "Spanish": [
+                "izquierdo"
+            ],
+            "Latin": [
+                "sinister"
+            ],
+            "Romanian": [
+                "stânga"
+            ],
+            "French": [
+                "gauche"
+            ],
+            "Italian": [
+                "sinistra"
+            ]
+        }
+    },
+    "LEG": {
+        "concept": "leg",
+        "gloss": "LEG",
+        "languages": {
+            "French": [
+                "jambe"
+            ],
+            "Italian": [
+                "gamba"
+            ],
+            "Latin": [
+                "crūs"
+            ],
+            "Romanian": [
+                "picior"
+            ],
+            "Portuguese": [
+                "perna"
+            ],
+            "Spanish": [
+                "pierna"
+            ]
+        }
+    },
+    "LIVER": {
+        "concept": "liver",
+        "gloss": "LIVER",
+        "languages": {
+            "French": [
+                "foie"
+            ],
+            "Italian": [
+                "fegato"
+            ],
+            "Portuguese": [
+                "fígado"
+            ],
+            "Romanian": [
+                "ficat"
+            ],
+            "Spanish": [
+                "hígado"
+            ],
+            "Latin": [
+                "iecur"
+            ]
+        }
+    },
+    "LONG": {
+        "concept": "long",
+        "gloss": "LONG",
+        "languages": {
+            "French": [
+                "long"
+            ],
+            "Italian": [
+                "lungo"
+            ],
+            "Romanian": [
+                "lung"
+            ],
+            "Latin": [
+                "longus"
+            ],
+            "Portuguese": [
+                "longo"
+            ],
+            "Spanish": [
+                "largo"
+            ]
+        }
+    },
+    "LOUSE": {
+        "concept": "louse",
+        "gloss": "LOUSE",
+        "languages": {
+            "French": [
+                "pou"
+            ],
+            "Italian": [
+                "pidocchio"
+            ],
+            "Portuguese": [
+                "piolho"
+            ],
+            "Romanian": [
+                "păduche"
+            ],
+            "Spanish": [
+                "piojo"
+            ],
+            "Latin": [
+                "pēdiculus"
+            ]
+        }
+    },
+    "MAN": {
+        "concept": "man",
+        "gloss": "MAN",
+        "languages": {
+            "French": [
+                "homme"
+            ],
+            "Italian": [
+                "uomo"
+            ],
+            "Portuguese": [
+                "homem"
+            ],
+            "Spanish": [
+                "hombre"
+            ],
+            "Latin": [
+                "homō"
+            ],
+            "Romanian": [
+                "bărbat"
+            ]
+        }
+    },
+    "MEAT": {
+        "concept": "meat",
+        "gloss": "MEAT",
+        "languages": {
+            "Italian": [
+                "carne"
+            ],
+            "Portuguese": [
+                "carne"
+            ],
+            "Romanian": [
+                "carne"
+            ],
+            "Spanish": [
+                "carne"
+            ],
+            "Latin": [
+                "carō"
+            ],
+            "French": [
+                "viande"
+            ]
+        }
+    },
+    "MOUNTAIN": {
+        "concept": "mountain",
+        "gloss": "MOUNTAIN",
+        "languages": {
+            "French": [
+                "montagne"
+            ],
+            "Italian": [
+                "montagna"
+            ],
+            "Portuguese": [
+                "montanha"
+            ],
+            "Romanian": [
+                "munte"
+            ],
+            "Spanish": [
+                "montaña"
+            ],
+            "Latin": [
+                "mōns"
+            ]
+        }
+    },
+    "MOUTH": {
+        "concept": "mouth",
+        "gloss": "MOUTH",
+        "languages": {
+            "French": [
+                "bouche"
+            ],
+            "Italian": [
+                "bocca"
+            ],
+            "Portuguese": [
+                "boca"
+            ],
+            "Spanish": [
+                "boca"
+            ],
+            "Latin": [
+                "ōs"
+            ],
+            "Romanian": [
+                "gură"
+            ]
+        }
+    },
+    "NAME": {
+        "concept": "name",
+        "gloss": "NAME",
+        "languages": {
+            "French": [
+                "nom"
+            ],
+            "Italian": [
+                "nome"
+            ],
+            "Portuguese": [
+                "nome"
+            ],
+            "Romanian": [
+                "nume"
+            ],
+            "Spanish": [
+                "nombre"
+            ],
+            "Latin": [
+                "nōmen"
+            ]
+        }
+    },
+    "NARROW": {
+        "concept": "narrow",
+        "gloss": "NARROW",
+        "languages": {
+            "French": [
+                "étroit"
+            ],
+            "Italian": [
+                "stretto"
+            ],
+            "Romanian": [
+                "strâmt"
+            ],
+            "Portuguese": [
+                "estreito"
+            ],
+            "Spanish": [
+                "estrecho"
+            ],
+            "Latin": [
+                "angustus"
+            ]
+        }
+    },
+    "NEAR": {
+        "concept": "near",
+        "gloss": "NEAR",
+        "languages": {
+            "French": [
+                "près"
+            ],
+            "Latin": [
+                "prope"
+            ],
+            "Romanian": [
+                "aproape"
+            ],
+            "Portuguese": [
+                "perto"
+            ],
+            "Italian": [
+                "vicino"
+            ],
+            "Spanish": [
+                "cerca"
+            ]
+        }
+    },
+    "NECK": {
+        "concept": "neck",
+        "gloss": "NECK",
+        "languages": {
+            "French": [
+                "cou"
+            ],
+            "Italian": [
+                "collo"
+            ],
+            "Spanish": [
+                "cuello"
+            ],
+            "Latin": [
+                "collum"
+            ],
+            "Romanian": [
+                "gât"
+            ],
+            "Portuguese": [
+                "pescoço"
+            ]
+        }
+    },
+    "NEW": {
+        "concept": "new",
+        "gloss": "NEW",
+        "languages": {
+            "French": [
+                "nouveau"
+            ],
+            "Italian": [
+                "nuovo"
+            ],
+            "Portuguese": [
+                "novo"
+            ],
+            "Romanian": [
+                "nou"
+            ],
+            "Spanish": [
+                "nuevo"
+            ],
+            "Latin": [
+                "nouus"
+            ]
+        }
+    },
+    "NIGHT": {
+        "concept": "night",
+        "gloss": "NIGHT",
+        "languages": {
+            "French": [
+                "nuit"
+            ],
+            "Italian": [
+                "notte"
+            ],
+            "Portuguese": [
+                "noite"
+            ],
+            "Romanian": [
+                "noapte"
+            ],
+            "Spanish": [
+                "noche"
+            ],
+            "Latin": [
+                "nox"
+            ]
+        }
+    },
+    "NOSE": {
+        "concept": "nose",
+        "gloss": "NOSE",
+        "languages": {
+            "French": [
+                "nez"
+            ],
+            "Italian": [
+                "naso"
+            ],
+            "Portuguese": [
+                "nariz"
+            ],
+            "Romanian": [
+                "nas"
+            ],
+            "Spanish": [
+                "nariz"
+            ],
+            "Latin": [
+                "nāsus"
+            ]
+        }
+    },
+    "OLD": {
+        "concept": "old",
+        "gloss": "OLD",
+        "languages": {
+            "French": [
+                "vieux"
+            ],
+            "Italian": [
+                "vecchio"
+            ],
+            "Portuguese": [
+                "velho"
+            ],
+            "Spanish": [
+                "viejo"
+            ],
+            "Latin": [
+                "uetus"
+            ],
+            "Romanian": [
+                "vechi"
+            ]
+        }
+    },
+    "ONE": {
+        "concept": "one",
+        "gloss": "ONE",
+        "languages": {
+            "French": [
+                "un"
+            ],
+            "Italian": [
+                "uno"
+            ],
+            "Portuguese": [
+                "um"
+            ],
+            "Romanian": [
+                "unu"
+            ],
+            "Spanish": [
+                "uno"
+            ],
+            "Latin": [
+                "ūnus"
+            ]
+        }
+    },
+    "PLAY": {
+        "concept": "play",
+        "gloss": "PLAY",
+        "languages": {
+            "French": [
+                "jouer"
+            ],
+            "Italian": [
+                "giocare"
+            ],
+            "Portuguese": [
+                "jogar"
+            ],
+            "Romanian": [
+                "a juca"
+            ],
+            "Spanish": [
+                "jugar"
+            ],
+            "Latin": [
+                "lūdere"
+            ]
+        }
+    },
+    "PULL": {
+        "concept": "pull",
+        "gloss": "PULL",
+        "languages": {
+            "French": [
+                "tirer"
+            ],
+            "Italian": [
+                "tirare"
+            ],
+            "Spanish": [
+                "tirar"
+            ],
+            "Latin": [
+                "trahere"
+            ],
+            "Romanian": [
+                "trage"
+            ],
+            "Portuguese": [
+                "puxar"
+            ]
+        }
+    },
+    "PUSH": {
+        "concept": "push",
+        "gloss": "PUSH",
+        "languages": {
+            "French": [
+                "pousser"
+            ],
+            "Spanish": [
+                "empujar"
+            ],
+            "Latin": [
+                "pellere"
+            ],
+            "Romanian": [
+                "împinge"
+            ],
+            "Portuguese": [
+                "empurrar"
+            ],
+            "Italian": [
+                "spingere"
+            ]
+        }
+    },
+    "RAIN": {
+        "concept": "rain",
+        "gloss": "RAIN",
+        "languages": {
+            "French": [
+                "pluie"
+            ],
+            "Italian": [
+                "pioggia"
+            ],
+            "Portuguese": [
+                "chuva"
+            ],
+            "Spanish": [
+                "lluvia"
+            ],
+            "Latin": [
+                "pluuia"
+            ],
+            "Romanian": [
+                "ploaie"
+            ]
+        }
+    },
+    "RED": {
+        "concept": "red",
+        "gloss": "RED",
+        "languages": {
+            "French": [
+                "rouge"
+            ],
+            "Italian": [
+                "rosso"
+            ],
+            "Romanian": [
+                "roșu"
+            ],
+            "Spanish": [
+                "rojo"
+            ],
+            "Latin": [
+                "ruber"
+            ],
+            "Portuguese": [
+                "vermelho"
+            ]
+        }
+    },
+    "RIGHT": {
+        "concept": "right",
+        "gloss": "RIGHT",
+        "languages": {
+            "French": [
+                "droit"
+            ],
+            "Portuguese": [
+                "direito"
+            ],
+            "Spanish": [
+                "derecho"
+            ],
+            "Romanian": [
+                "drept"
+            ],
+            "Latin": [
+                "dexter"
+            ],
+            "Italian": [
+                "destra"
+            ]
+        }
+    },
+    "RIVER": {
+        "concept": "river",
+        "gloss": "RIVER",
+        "languages": {
+            "Portuguese": [
+                "rio"
+            ],
+            "Spanish": [
+                "río"
+            ],
+            "Romanian": [
+                "râu"
+            ],
+            "Latin": [
+                "flūmen"
+            ],
+            "French": [
+                "rivière"
+            ],
+            "Italian": [
+                "fiume"
+            ]
+        }
+    },
+    "ROOT": {
+        "concept": "root",
+        "gloss": "ROOT",
+        "languages": {
+            "French": [
+                "racine"
+            ],
+            "Italian": [
+                "radice"
+            ],
+            "Portuguese": [
+                "raiz"
+            ],
+            "Romanian": [
+                "rădăcină"
+            ],
+            "Spanish": [
+                "raíz"
+            ],
+            "Latin": [
+                "rādix"
+            ]
+        }
+    },
+    "ROTTEN": {
+        "concept": "rotten",
+        "gloss": "ROTTEN",
+        "languages": {
+            "French": [
+                "pourri"
+            ],
+            "Portuguese": [
+                "podre"
+            ],
+            "Romanian": [
+                "putred"
+            ],
+            "Spanish": [
+                "podrido"
+            ],
+            "Latin": [
+                "putridus"
+            ],
+            "Italian": [
+                "marcio"
+            ]
+        }
+    },
+    "SALT": {
+        "concept": "salt",
+        "gloss": "SALT",
+        "languages": {
+            "French": [
+                "sel"
+            ],
+            "Italian": [
+                "sale"
+            ],
+            "Portuguese": [
+                "sal"
+            ],
+            "Romanian": [
+                "sare"
+            ],
+            "Spanish": [
+                "sal"
+            ],
+            "Latin": [
+                "sāl"
+            ]
+        }
+    },
+    "SAND": {
+        "concept": "sand",
+        "gloss": "SAND",
+        "languages": {
+            "French": [
+                "sable"
+            ],
+            "Italian": [
+                "sabbia"
+            ],
+            "Latin": [
+                "harēna"
+            ],
+            "Romanian": [
+                "nisip"
+            ],
+            "Portuguese": [
+                "areia"
+            ],
+            "Spanish": [
+                "arena"
+            ]
+        }
+    },
+    "SAY": {
+        "concept": "say",
+        "gloss": "SAY",
+        "languages": {
+            "French": [
+                "dire"
+            ],
+            "Italian": [
+                "dire"
+            ],
+            "Portuguese": [
+                "dizer"
+            ],
+            "Romanian": [
+                "a zice"
+            ],
+            "Spanish": [
+                "decir"
+            ],
+            "Latin": [
+                "dicere"
+            ]
+        }
+    },
+    "SEA": {
+        "concept": "sea",
+        "gloss": "SEA",
+        "languages": {
+            "French": [
+                "mer"
+            ],
+            "Italian": [
+                "mare"
+            ],
+            "Portuguese": [
+                "mar"
+            ],
+            "Romanian": [
+                "mare"
+            ],
+            "Spanish": [
+                "mar"
+            ],
+            "Latin": [
+                "mare"
+            ]
+        }
+    },
+    "SEE": {
+        "concept": "see",
+        "gloss": "SEE",
+        "languages": {
+            "French": [
+                "voir"
+            ],
+            "Italian": [
+                "vedere"
+            ],
+            "Portuguese": [
+                "ver"
+            ],
+            "Romanian": [
+                "a vedea"
+            ],
+            "Spanish": [
+                "ver"
+            ],
+            "Latin": [
+                "uidēre"
+            ]
+        }
+    },
+    "SEED": {
+        "concept": "seed",
+        "gloss": "SEED",
+        "languages": {
+            "Italian": [
+                "seme"
+            ],
+            "Portuguese": [
+                "semente"
+            ],
+            "Romanian": [
+                "sămânță"
+            ],
+            "Spanish": [
+                "semilla"
+            ],
+            "Latin": [
+                "sēmen"
+            ],
+            "French": [
+                "graine"
+            ]
+        }
+    },
+    "SEW": {
+        "concept": "sew",
+        "gloss": "SEW",
+        "languages": {
+            "French": [
+                "coudre"
+            ],
+            "Italian": [
+                "cucire"
+            ],
+            "Portuguese": [
+                "coser"
+            ],
+            "Romanian": [
+                "a coase"
+            ],
+            "Spanish": [
+                "coser"
+            ],
+            "Latin": [
+                "suere"
+            ]
+        }
+    },
+    "SHARP": {
+        "concept": "sharp",
+        "gloss": "SHARP",
+        "languages": {
+            "Portuguese": [
+                "afiado"
+            ],
+            "Spanish": [
+                "afilado"
+            ],
+            "Italian": [
+                "affilato"
+            ],
+            "Latin": [
+                "acūtus"
+            ],
+            "Romanian": [
+                "ascuțit"
+            ],
+            "French": [
+                "aigu"
+            ]
+        }
+    },
+    "SHORT": {
+        "concept": "short",
+        "gloss": "SHORT",
+        "languages": {
+            "French": [
+                "court"
+            ],
+            "Italian": [
+                "corto"
+            ],
+            "Portuguese": [
+                "curto"
+            ],
+            "Romanian": [
+                "scurt"
+            ],
+            "Spanish": [
+                "corto"
+            ],
+            "Latin": [
+                "breuis"
+            ]
+        }
+    },
+    "SING": {
+        "concept": "sing",
+        "gloss": "SING",
+        "languages": {
+            "French": [
+                "chanter"
+            ],
+            "Italian": [
+                "cantare"
+            ],
+            "Portuguese": [
+                "cantar"
+            ],
+            "Romanian": [
+                "a cânta"
+            ],
+            "Spanish": [
+                "cantar"
+            ],
+            "Latin": [
+                "canere"
+            ]
+        }
+    },
+    "SIT": {
+        "concept": "sit",
+        "gloss": "SIT",
+        "languages": {
+            "French": [
+                "être assis"
+            ],
+            "Italian": [
+                "essere seduto"
+            ],
+            "Portuguese": [
+                "estar sentado"
+            ],
+            "Romanian": [
+                "a şedea"
+            ],
+            "Spanish": [
+                "estar sentado"
+            ],
+            "Latin": [
+                "sedēre"
+            ]
+        }
+    },
+    "SKIN": {
+        "concept": "skin",
+        "gloss": "SKIN",
+        "languages": {
+            "French": [
+                "peau"
+            ],
+            "Italian": [
+                "pelle"
+            ],
+            "Portuguese": [
+                "pele"
+            ],
+            "Romanian": [
+                "piele"
+            ],
+            "Spanish": [
+                "piel"
+            ],
+            "Latin": [
+                "pellis"
+            ]
+        }
+    },
+    "SKY": {
+        "concept": "sky",
+        "gloss": "SKY",
+        "languages": {
+            "French": [
+                "ciel"
+            ],
+            "Italian": [
+                "cielo"
+            ],
+            "Portuguese": [
+                "céu"
+            ],
+            "Romanian": [
+                "cer"
+            ],
+            "Spanish": [
+                "cielo"
+            ],
+            "Latin": [
+                "caelum"
+            ]
+        }
+    },
+    "SLEEP": {
+        "concept": "sleep",
+        "gloss": "SLEEP",
+        "languages": {
+            "French": [
+                "dormir"
+            ],
+            "Italian": [
+                "dormire"
+            ],
+            "Portuguese": [
+                "dormir"
+            ],
+            "Romanian": [
+                "a dormi"
+            ],
+            "Spanish": [
+                "dormir"
+            ],
+            "Latin": [
+                "dormīre"
+            ]
+        }
+    },
+    "SMALL": {
+        "concept": "small",
+        "gloss": "SMALL",
+        "languages": {
+            "Portuguese": [
+                "pequeno"
+            ],
+            "Spanish": [
+                "pequeño"
+            ],
+            "Latin": [
+                "paruus"
+            ],
+            "Romanian": [
+                "mic"
+            ],
+            "French": [
+                "petit"
+            ],
+            "Italian": [
+                "piccolo"
+            ]
+        }
+    },
+    "SMELL": {
+        "concept": "smell",
+        "gloss": "SMELL",
+        "languages": {
+            "French": [
+                "sentir"
+            ],
+            "Italian": [
+                "sentire"
+            ],
+            "Latin": [
+                "sentīre"
+            ],
+            "Romanian": [
+                "mirosi"
+            ],
+            "Portuguese": [
+                "cheirar"
+            ],
+            "Spanish": [
+                "oler"
+            ]
+        }
+    },
+    "SMOKE": {
+        "concept": "smoke",
+        "gloss": "SMOKE",
+        "languages": {
+            "French": [
+                "fumée"
+            ],
+            "Italian": [
+                "fumo"
+            ],
+            "Portuguese": [
+                "fumo"
+            ],
+            "Romanian": [
+                "fum"
+            ],
+            "Spanish": [
+                "humo"
+            ],
+            "Latin": [
+                "fūmus"
+            ]
+        }
+    },
+    "SMOOTH": {
+        "concept": "smooth",
+        "gloss": "SMOOTH",
+        "languages": {
+            "French": [
+                "lisse"
+            ],
+            "Portuguese": [
+                "liso"
+            ],
+            "Spanish": [
+                "liso"
+            ],
+            "Italian": [
+                "liscio"
+            ],
+            "Latin": [
+                "lēuis"
+            ],
+            "Romanian": [
+                "neted"
+            ]
+        }
+    },
+    "SNAKE": {
+        "concept": "snake",
+        "gloss": "SNAKE",
+        "languages": {
+            "French": [
+                "serpent"
+            ],
+            "Italian": [
+                "serpente"
+            ],
+            "Romanian": [
+                "șarpe"
+            ],
+            "Latin": [
+                "serpēns"
+            ],
+            "Portuguese": [
+                "serpente"
+            ],
+            "Spanish": [
+                "serpiente"
+            ]
+        }
+    },
+    "SNOW": {
+        "concept": "snow",
+        "gloss": "SNOW",
+        "languages": {
+            "French": [
+                "neige"
+            ],
+            "Italian": [
+                "neve"
+            ],
+            "Portuguese": [
+                "neve"
+            ],
+            "Spanish": [
+                "nieve"
+            ],
+            "Latin": [
+                "nix"
+            ],
+            "Romanian": [
+                "zăpadă"
+            ]
+        }
+    },
+    "STAND": {
+        "concept": "stand",
+        "gloss": "STAND",
+        "languages": {
+            "Italian": [
+                "stare in piedi"
+            ],
+            "Portuguese": [
+                "ficar em/de pé"
+            ],
+            "Romanian": [
+                "a sta în picioare"
+            ],
+            "Spanish": [
+                "estar de pie"
+            ],
+            "Latin": [
+                "stāre"
+            ],
+            "French": [
+                "se tenir"
+            ]
+        }
+    },
+    "STAR": {
+        "concept": "star",
+        "gloss": "STAR",
+        "languages": {
+            "French": [
+                "étoile"
+            ],
+            "Italian": [
+                "stella"
+            ],
+            "Portuguese": [
+                "estrela"
+            ],
+            "Romanian": [
+                "stea"
+            ],
+            "Spanish": [
+                "estrella"
+            ],
+            "Latin": [
+                "stēlla"
+            ]
+        }
+    },
+    "STICK": {
+        "concept": "stick",
+        "gloss": "STICK",
+        "languages": {
+            "French": [
+                "bâton"
+            ],
+            "Italian": [
+                "bastone"
+            ],
+            "Latin": [
+                "baculum"
+            ],
+            "Romanian": [
+                "băț"
+            ],
+            "Portuguese": [
+                "pau"
+            ],
+            "Spanish": [
+                "palo"
+            ]
+        }
+    },
+    "STONE": {
+        "concept": "stone",
+        "gloss": "STONE",
+        "languages": {
+            "French": [
+                "pierre"
+            ],
+            "Portuguese": [
+                "pedra"
+            ],
+            "Romanian": [
+                "piatră"
+            ],
+            "Spanish": [
+                "piedra"
+            ],
+            "Latin": [
+                "lapis"
+            ],
+            "Italian": [
+                "pietra"
+            ]
+        }
+    },
+    "STRAIGHT": {
+        "concept": "straight",
+        "gloss": "STRAIGHT",
+        "languages": {
+            "French": [
+                "droit"
+            ],
+            "Italian": [
+                "dritto"
+            ],
+            "Portuguese": [
+                "direito"
+            ],
+            "Romanian": [
+                "drept"
+            ],
+            "Latin": [
+                "rectus"
+            ],
+            "Spanish": [
+                "recto"
+            ]
+        }
+    },
+    "SUN": {
+        "concept": "sun",
+        "gloss": "SUN",
+        "languages": {
+            "French": [
+                "soleil"
+            ],
+            "Italian": [
+                "sole"
+            ],
+            "Portuguese": [
+                "sol"
+            ],
+            "Romanian": [
+                "soare"
+            ],
+            "Spanish": [
+                "sol"
+            ],
+            "Latin": [
+                "sōl"
+            ]
+        }
+    },
+    "SWELL": {
+        "concept": "swell",
+        "gloss": "SWELL",
+        "languages": {
+            "French": [
+                "enfler"
+            ],
+            "Italian": [
+                "gonfiare"
+            ],
+            "Portuguese": [
+                "inchar"
+            ],
+            "Romanian": [
+                "a se umfla"
+            ],
+            "Spanish": [
+                "hincharse"
+            ],
+            "Latin": [
+                "tumēre"
+            ]
+        }
+    },
+    "SWIM": {
+        "concept": "swim",
+        "gloss": "SWIM",
+        "languages": {
+            "French": [
+                "nager"
+            ],
+            "Italian": [
+                "nuotare"
+            ],
+            "Portuguese": [
+                "nadar"
+            ],
+            "Romanian": [
+                "a înota"
+            ],
+            "Spanish": [
+                "nadar"
+            ],
+            "Latin": [
+                "nāre"
+            ]
+        }
+    },
+    "TAIL": {
+        "concept": "tail",
+        "gloss": "TAIL",
+        "languages": {
+            "French": [
+                "queue"
+            ],
+            "Italian": [
+                "coda"
+            ],
+            "Romanian": [
+                "coadă"
+            ],
+            "Spanish": [
+                "cola"
+            ],
+            "Latin": [
+                "cauda"
+            ],
+            "Portuguese": [
+                "cauda"
+            ]
+        }
+    },
+    "THICK": {
+        "concept": "thick",
+        "gloss": "THICK",
+        "languages": {
+            "Italian": [
+                "grosso"
+            ],
+            "Portuguese": [
+                "grosso"
+            ],
+            "Romanian": [
+                "gros"
+            ],
+            "Latin": [
+                "crassus"
+            ],
+            "French": [
+                "épais"
+            ],
+            "Spanish": [
+                "grueso"
+            ]
+        }
+    },
+    "THINK": {
+        "concept": "think",
+        "gloss": "THINK",
+        "languages": {
+            "French": [
+                "penser"
+            ],
+            "Italian": [
+                "pensare"
+            ],
+            "Portuguese": [
+                "pensar"
+            ],
+            "Spanish": [
+                "pensar"
+            ],
+            "Latin": [
+                "pēnsāre"
+            ],
+            "Romanian": [
+                "gândi"
+            ]
+        }
+    },
+    "THREE": {
+        "concept": "three",
+        "gloss": "THREE",
+        "languages": {
+            "French": [
+                "trois"
+            ],
+            "Italian": [
+                "tre"
+            ],
+            "Portuguese": [
+                "três"
+            ],
+            "Romanian": [
+                "trei"
+            ],
+            "Spanish": [
+                "tres"
+            ],
+            "Latin": [
+                "trēs"
+            ]
+        }
+    },
+    "THROW": {
+        "concept": "throw",
+        "gloss": "THROW",
+        "languages": {
+            "French": [
+                "lancer"
+            ],
+            "Portuguese": [
+                "lançar"
+            ],
+            "Latin": [
+                "iacere"
+            ],
+            "Romanian": [
+                "arunca"
+            ],
+            "Italian": [
+                "gettare"
+            ],
+            "Spanish": [
+                "tirar"
+            ]
+        }
+    },
+    "TIE": {
+        "concept": "tie",
+        "gloss": "TIE",
+        "languages": {
+            "Italian": [
+                "legare"
+            ],
+            "Romanian": [
+                "a lega"
+            ],
+            "Latin": [
+                "ligāre"
+            ],
+            "Portuguese": [
+                "amarrar"
+            ],
+            "French": [
+                "lier"
+            ],
+            "Spanish": [
+                "atar"
+            ]
+        }
+    },
+    "TONGUE": {
+        "concept": "tongue",
+        "gloss": "TONGUE",
+        "languages": {
+            "French": [
+                "langue"
+            ],
+            "Italian": [
+                "lingua"
+            ],
+            "Portuguese": [
+                "lingua"
+            ],
+            "Romanian": [
+                "limbă"
+            ],
+            "Spanish": [
+                "lengua"
+            ],
+            "Latin": [
+                "lingua"
+            ]
+        }
+    },
+    "TOOTH": {
+        "concept": "tooth",
+        "gloss": "TOOTH",
+        "languages": {
+            "French": [
+                "dent"
+            ],
+            "Italian": [
+                "dente"
+            ],
+            "Portuguese": [
+                "dente"
+            ],
+            "Romanian": [
+                "dinte"
+            ],
+            "Spanish": [
+                "diente"
+            ],
+            "Latin": [
+                "dens"
+            ]
+        }
+    },
+    "TREE": {
+        "concept": "tree",
+        "gloss": "TREE",
+        "languages": {
+            "French": [
+                "arbre"
+            ],
+            "Italian": [
+                "albero"
+            ],
+            "Portuguese": [
+                "árvore"
+            ],
+            "Spanish": [
+                "árbol"
+            ],
+            "Latin": [
+                "arbor"
+            ],
+            "Romanian": [
+                "copac"
+            ]
+        }
+    },
+    "TURN": {
+        "concept": "turn",
+        "gloss": "TURN",
+        "languages": {
+            "Italian": [
+                "girare"
+            ],
+            "Portuguese": [
+                "girar"
+            ],
+            "Spanish": [
+                "girar"
+            ],
+            "Latin": [
+                "uertere"
+            ],
+            "Romanian": [
+                "întoarce"
+            ],
+            "French": [
+                "tourner"
+            ]
+        }
+    },
+    "TWO": {
+        "concept": "two",
+        "gloss": "TWO",
+        "languages": {
+            "French": [
+                "deux"
+            ],
+            "Italian": [
+                "due"
+            ],
+            "Portuguese": [
+                "dois"
+            ],
+            "Romanian": [
+                "doi"
+            ],
+            "Spanish": [
+                "dos"
+            ],
+            "Latin": [
+                "duo"
+            ]
+        }
+    },
+    "VOMIT": {
+        "concept": "vomit",
+        "gloss": "VOMIT",
+        "languages": {
+            "French": [
+                "vomir"
+            ],
+            "Italian": [
+                "vomitare"
+            ],
+            "Portuguese": [
+                "vomitar"
+            ],
+            "Romanian": [
+                "vomita"
+            ],
+            "Spanish": [
+                "vomitar"
+            ],
+            "Latin": [
+                "uomere"
+            ]
+        }
+    },
+    "HOT": {
+        "concept": "hot",
+        "gloss": "HOT",
+        "languages": {
+            "French": [
+                "chaud"
+            ],
+            "Italian": [
+                "caldo"
+            ],
+            "Portuguese": [
+                "quente"
+            ],
+            "Romanian": [
+                "cald"
+            ],
+            "Spanish": [
+                "caliente"
+            ],
+            "Latin": [
+                "calidus"
+            ]
+        }
+    },
+    "WASH": {
+        "concept": "wash",
+        "gloss": "WASH",
+        "languages": {
+            "French": [
+                "laver"
+            ],
+            "Italian": [
+                "lavare"
+            ],
+            "Portuguese": [
+                "lavar"
+            ],
+            "Romanian": [
+                "spăla"
+            ],
+            "Spanish": [
+                "lavar"
+            ],
+            "Latin": [
+                "lauāre"
+            ]
+        }
+    },
+    "WATER": {
+        "concept": "water",
+        "gloss": "WATER",
+        "languages": {
+            "French": [
+                "eau"
+            ],
+            "Italian": [
+                "acqua"
+            ],
+            "Portuguese": [
+                "água"
+            ],
+            "Romanian": [
+                "apă"
+            ],
+            "Spanish": [
+                "agua"
+            ],
+            "Latin": [
+                "aqua"
+            ]
+        }
+    },
+    "WET": {
+        "concept": "wet",
+        "gloss": "WET",
+        "languages": {
+            "French": [
+                "mouillé"
+            ],
+            "Portuguese": [
+                "molhado"
+            ],
+            "Spanish": [
+                "mojado"
+            ],
+            "Latin": [
+                "ūmidus"
+            ],
+            "Romanian": [
+                "ud"
+            ],
+            "Italian": [
+                "bagnato"
+            ]
+        }
+    },
+    "WHITE": {
+        "concept": "white",
+        "gloss": "WHITE",
+        "languages": {
+            "French": [
+                "blanc"
+            ],
+            "Italian": [
+                "bianco"
+            ],
+            "Portuguese": [
+                "branco"
+            ],
+            "Spanish": [
+                "blanco"
+            ],
+            "Latin": [
+                "albus"
+            ],
+            "Romanian": [
+                "alb"
+            ]
+        }
+    },
+    "WIDE": {
+        "concept": "wide",
+        "gloss": "WIDE",
+        "languages": {
+            "French": [
+                "large"
+            ],
+            "Italian": [
+                "largo"
+            ],
+            "Portuguese": [
+                "largo"
+            ],
+            "Latin": [
+                "lātus"
+            ],
+            "Romanian": [
+                "larg"
+            ],
+            "Spanish": [
+                "ancho"
+            ]
+        }
+    },
+    "WIND": {
+        "concept": "wind",
+        "gloss": "WIND",
+        "languages": {
+            "French": [
+                "vent"
+            ],
+            "Italian": [
+                "vento"
+            ],
+            "Portuguese": [
+                "vento"
+            ],
+            "Romanian": [
+                "vânt"
+            ],
+            "Spanish": [
+                "viento"
+            ],
+            "Latin": [
+                "uentus"
+            ]
+        }
+    },
+    "WING": {
+        "concept": "wing",
+        "gloss": "WING",
+        "languages": {
+            "French": [
+                "aile"
+            ],
+            "Italian": [
+                "ala"
+            ],
+            "Portuguese": [
+                "asa"
+            ],
+            "Romanian": [
+                "aripă"
+            ],
+            "Spanish": [
+                "ala"
+            ],
+            "Latin": [
+                "āla"
+            ]
+        }
+    },
+    "WOMAN": {
+        "concept": "woman",
+        "gloss": "WOMAN",
+        "languages": {
+            "French": [
+                "femme"
+            ],
+            "Romanian": [
+                "femeie"
+            ],
+            "Latin": [
+                "fēmina"
+            ],
+            "Portuguese": [
+                "mulher"
+            ],
+            "Italian": [
+                "donna"
+            ],
+            "Spanish": [
+                "mujer"
+            ]
+        }
+    },
+    "FOREST": {
+        "concept": "forest",
+        "gloss": "FOREST",
+        "languages": {
+            "French": [
+                "bois"
+            ],
+            "Italian": [
+                "bosco"
+            ],
+            "Latin": [
+                "silua"
+            ],
+            "Romanian": [
+                "pădure"
+            ],
+            "Portuguese": [
+                "floresta"
+            ],
+            "Spanish": [
+                "bosque"
+            ]
+        }
+    },
+    "WORM": {
+        "concept": "worm",
+        "gloss": "WORM",
+        "languages": {
+            "French": [
+                "ver"
+            ],
+            "Italian": [
+                "verme"
+            ],
+            "Romanian": [
+                "vierme"
+            ],
+            "Latin": [
+                "uermis"
+            ],
+            "Portuguese": [
+                "verme"
+            ],
+            "Spanish": [
+                "gusano"
+            ]
+        }
+    },
+    "YEAR": {
+        "concept": "year",
+        "gloss": "YEAR",
+        "languages": {
+            "French": [
+                "an"
+            ],
+            "Italian": [
+                "anno"
+            ],
+            "Portuguese": [
+                "ano"
+            ],
+            "Romanian": [
+                "an"
+            ],
+            "Spanish": [
+                "año"
+            ],
+            "Latin": [
+                "annus"
+            ]
+        }
+    },
+    "YELLOW": {
+        "concept": "yellow",
+        "gloss": "YELLOW",
+        "languages": {
+            "French": [
+                "jaune"
+            ],
+            "Romanian": [
+                "galben"
+            ],
+            "Latin": [
+                "flāuus"
+            ],
+            "Portuguese": [
+                "amarelo"
+            ],
+            "Italian": [
+                "giallo"
+            ],
+            "Spanish": [
+                "amarillo"
+            ]
+        }
+    },
+    "CLAW": {
+        "concept": "claw",
+        "gloss": "CLAW",
+        "languages": {
+            "Latin": [
+                "unguis"
+            ],
+            "Italian": [
+                "unghia"
+            ],
+            "French": [
+                "ongle"
+            ],
+            "Spanish": [
+                "uña"
+            ],
+            "Romanian": [
+                "unghie"
+            ],
+            "Portuguese": [
+                "unha"
+            ]
+        }
+    },
+    "FULL": {
+        "concept": "full",
+        "gloss": "FULL",
+        "languages": {
+            "Latin": [
+                "plēnus"
+            ],
+            "Italian": [
+                "pieno"
+            ],
+            "Romanian": [
+                "plin"
+            ],
+            "French": [
+                "plein"
+            ],
+            "Spanish": [
+                "lleno"
+            ],
+            "Portuguese": [
+                "cheio"
+            ]
+        }
+    },
+    "HORN": {
+        "concept": "horn",
+        "gloss": "HORN",
+        "languages": {
+            "Latin": [
+                "cornū"
+            ],
+            "Romanian": [
+                "corn"
+            ],
+            "Spanish": [
+                "cuerno"
+            ],
+            "French": [
+                "corne"
+            ],
+            "Italian": [
+                "corno"
+            ],
+            "Portuguese": [
+                "chifre"
+            ]
+        }
+    },
+    "KNEE": {
+        "concept": "knee",
+        "gloss": "KNEE",
+        "languages": {
+            "Latin": [
+                "genu"
+            ],
+            "Italian": [
+                "ginocchio"
+            ],
+            "French": [
+                "genou"
+            ],
+            "Romanian": [
+                "genunchiu"
+            ],
+            "Portuguese": [
+                "joelho"
+            ],
+            "Spanish": [
+                "rodilla"
+            ]
+        }
+    },
+    "MOON": {
+        "concept": "moon",
+        "gloss": "MOON",
+        "languages": {
+            "Latin": [
+                "lūna"
+            ],
+            "Romanian": [
+                "lună"
+            ],
+            "French": [
+                "lune"
+            ],
+            "Spanish": [
+                "luna"
+            ],
+            "Italian": [
+                "luna"
+            ],
+            "Portuguese": [
+                "lua"
+            ]
+        }
+    },
+    "ROUND": {
+        "concept": "round",
+        "gloss": "ROUND",
+        "languages": {
+            "Latin": [
+                "rotundus"
+            ],
+            "Italian": [
+                "tondo"
+            ],
+            "Spanish": [
+                "redondo"
+            ],
+            "Romanian": [
+                "rotund"
+            ],
+            "French": [
+                "rond"
+            ],
+            "Portuguese": [
+                "redondo"
+            ]
+        }
+    },
+    "WALK": {
+        "concept": "walk",
+        "gloss": "WALK",
+        "languages": {
+            "Italian": [
+                "andare ≠ va"
+            ],
+            "French": [
+                "aller ≠ va"
+            ],
+            "Spanish": [
+                "ir ≠ va"
+            ],
+            "Portuguese": [
+                "ir"
+            ],
+            "Latin": [
+                "ambulāre"
+            ],
+            "Romanian": [
+                "merge"
+            ]
+        }
+    }
+}

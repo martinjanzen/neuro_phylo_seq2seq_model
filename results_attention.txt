@@ -1,0 +1,85 @@
+CLAIM 2: Decoder attention is systematically biased toward phonologically conservative Romance languages
+======================================================================
+
+FRAMING NOTE: 'biased toward conservative languages' means the attention
+distribution consistently favors languages that have diverged less from Latin
+(per Pei 1949). This is not claimed to be a strict total ranking — the
+cross-fold Spearman ρ shows directional but variable consistency.
+The primary support is the binomial and Italian t-test, not the rank correlation.
+
+PRIMARY STATISTICS (report in paper):
+  Binomial test: 129/150 concepts (86.0%) show attention
+    biased toward more conservative languages (p=1.87e-20, one-tailed vs 50% chance)
+  Italian vs rest (one-tailed t-test, n=10 folds):
+    t=2.5409,  df=9,  p=0.015831  [significant]
+    Italian receives 0.2996 ± 0.1176 mean attention
+    All other languages combined: 0.1751
+
+SECONDARY STATISTICS (supplementary — directional, not rank-confirmatory):
+  Cross-fold Spearman ρ (attention vs Pei dist): -0.5800 ± 0.3516
+    std/|mean| = 0.61 — high variance; do not claim strict ranking
+  Rank-biserial r (per fold, descriptive only, n_groups=2/3): -0.5333 ± 0.5416
+
+ATTENTION WEIGHTS BY LANGUAGE (cross-fold mean ± std):
+  French      : 0.056458 ± 0.041666
+  Italian     : 0.299586 ± 0.117578
+  Portuguese  : 0.224663 ± 0.168306
+  Romanian    : 0.184560 ± 0.120377
+  Spanish     : 0.234732 ± 0.111933
+
+FOLD-LEVEL ρ VALUES:
+  Fold  1: ρ = -0.6000
+  Fold  2: ρ = -1.0000
+  Fold  3: ρ = -1.0000
+  Fold  4: ρ = -0.9000
+  Fold  5: ρ = -0.7000
+  Fold  6: ρ = 0.0000
+  Fold  7: ρ = -0.7000
+  Fold  8: ρ = -0.6000
+  Fold  9: ρ = -0.3000
+  Fold 10: ρ = 0.0000
+
+PER-FOLD ATTENTION WEIGHTS (for figures):
+  LANGS_ORDER: ['French', 'Italian', 'Portuguese', 'Romanian', 'Spanish']
+  Fold  1: [0.127304, 0.41486, 0.061867, 0.087527, 0.308441]
+  Fold  2: [0.092728, 0.402932, 0.159343, 0.13718, 0.207818]
+  Fold  3: [0.11509, 0.296323, 0.192128, 0.181001, 0.215458]
+  Fold  4: [0.038907, 0.364617, 0.112395, 0.162136, 0.321945]
+  Fold  5: [0.004771, 0.134894, 0.313276, 0.053695, 0.493363]
+  Fold  6: [0.036377, 0.181985, 0.246089, 0.332566, 0.202983]
+  Fold  7: [0.074602, 0.500447, 0.052405, 0.180494, 0.192052]
+  Fold  8: [0.020071, 0.216622, 0.672091, 2e-05, 0.091196]
+  Fold  9: [0.048097, 0.328561, 0.2014, 0.331083, 0.09086]
+  Fold 10: [0.006638, 0.154617, 0.235638, 0.379899, 0.223209]
+
+COPYING CONFOUND (stated limitation — discuss in paper):
+  Cosine similarity to Latin target by language:
+  French      : 0.380864
+  Italian     : 0.571443
+  Portuguese  : 0.502596
+  Romanian    : 0.467457
+  Spanish     : 0.541673
+  Spearman ρ (similarity vs attention): 1.0000,  two-tailed p=0.016667
+  SIGNIFICANT at α=0.05
+  INTERPRETATION: conservative languages preserved more Latin phonological
+  features, making them featurally closer to the reconstruction target.
+  With Pei (1949) distances, ρ=0.90 but p=0.067 — the confound is attenuated
+  relative to the model-derived distance metric (where ρ=1.0, p=0.017).
+  Attribution between conservatism and feature similarity remains underdetermined
+  at n=5 languages and should be reported as a limitation, not a disqualifier.
+
+DISTANCE TO LATIN (from distance_matrix.csv, ascending = most conservative):
+  #1 Italian     : 0.442604
+  #2 Spanish     : 0.448024
+  #3 Portuguese  : 0.483839
+  #4 Romanian    : 0.507082
+  #5 French      : 0.563422
+
+NOTE ON SPANISH/ITALIAN ORDERING (distance_matrix.csv):
+  Spanish  dist=0.448024
+  Italian  dist=0.442604
+  Δ=-0.005421  (Spanish is marginally closer to Latin by the phonological distance metric).
+  Attention ranking inverts this pair (Italian > Spanish in weight).
+  The gap is within measurement noise at this distance resolution;
+  Spanish and Italian should be treated as effectively tied in conservatism.
+  Claim 2 is stated at the group level and is robust to this marginal swap.

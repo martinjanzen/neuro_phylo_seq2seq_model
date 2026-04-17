@@ -1,0 +1,40 @@
+CLAIM 1: Italian uniquely informs Vulgar Latin reconstruction
+======================================================================
+
+PRIMARY STATISTICS (report in paper):
+  Wilcoxon signed-rank (one-tailed, n=10 folds):
+    T=55/55, p_uncorr=0.000977
+    p_Bonferroni=0.004883  [significant after correction]
+  Permutation test (n_perm=10000): p=0.000300  [significant]
+  Cohen's d=0.6545  [medium effect size]
+  Δ PhonologicalLoss = +0.026868  (mean ablated – mean baseline)
+
+BASELINE PhonologicalLoss:
+  Mean: 0.496787  Std: 0.038108
+  Per-fold: [0.5, 0.4649, 0.4924, 0.5717, 0.5431, 0.4766, 0.4736, 0.5046, 0.4297, 0.5112]
+
+WILCOXON RESOLUTION:
+  n=10 pairs  |  Max T=55  |  Min achievable p=0.000977
+  Italian T=55 — all of 10 fold differences in expected direction
+
+ALL LANGUAGES (ranked by Δ PhonologicalLoss):
+  Lang           Δ Loss       d     T   p_uncorr     p_Bonf     p_perm
+  ────────────────────────────────────────────────────────────────
+  Italian        0.0269   0.655    55     0.0010     0.0049     0.0003
+  Spanish        0.0085   0.235    39     0.1377     0.6885     0.0795
+  Romanian      -0.0009  -0.026    27     0.5391     1.0000     0.5290
+  French        -0.0012  -0.034    28     0.5000     1.0000     0.5887
+  Portuguese    -0.0066  -0.183    20     0.7842     1.0000     0.8031
+
+PER-FOLD ABLATED LOSSES (for figures):
+  BASELINE: [0.500038, 0.464924, 0.492431, 0.571725, 0.543065, 0.476592, 0.473553, 0.504631, 0.429685, 0.511226]
+  French: [0.500608, 0.46382, 0.492775, 0.544569, 0.511076, 0.46782, 0.493201, 0.519502, 0.446001, 0.516383]
+  Italian: [0.513098, 0.508979, 0.494494, 0.596516, 0.554547, 0.501514, 0.527668, 0.552584, 0.442497, 0.544656]
+  Portuguese: [0.454654, 0.470335, 0.486602, 0.534011, 0.52638, 0.475399, 0.500049, 0.521196, 0.437208, 0.495708]
+  Romanian: [0.45915, 0.490992, 0.51129, 0.543035, 0.517908, 0.519044, 0.483239, 0.464854, 0.469803, 0.499774]
+  Spanish: [0.494363, 0.492138, 0.482401, 0.567942, 0.536435, 0.472458, 0.504443, 0.517056, 0.464497, 0.520832]
+
+NOTE: Non-Italian languages are not significant after Bonferroni correction.
+Italian uniqueness (not a graded hierarchy) is the supportable claim.
+No non-Italian language approaches significance even uncorrected (all p_uncorr > 0.10).
+All non-Italian effect sizes (max d=0.235) are small and underpowered at n=10 folds.

@@ -1,0 +1,28 @@
+ID,level0_name,level1_name,level2_name,level3_name,clade_name,short_name,color,clade_level0,clade_level1,clade_level2,clade_level3,taxonsetName
+22,Anatolian,,,,Anatolian,Atl,#8B4513,1,0,0,0,Anatolian
+32,Tocharian,,,,Tocharian,Tch,#F4A488,2,0,0,0,Tocharian
+21,Hellenic,,,,Hellenic,Grk,#00BFFF,3,0,0,0,Hellenic
+31,Armenian,,,,Armenian,Arm,#800080,4,0,0,0,Armenian
+30,Albanian,,,,Albanian,Alb,#999999,5,0,0,0,Albanian
+33,Indo-Iranic,,,,Indo-Iranic,IIc,#EE0000,6,0,0,0,IndoIranic
+24,Indo-Iranic,,,,Indic,,#B0171F,6,1,0,0,Indic
+27,Indo-Iranic,Nuristani,,,Nuristani,,#DC143C,6,2,0,0,Nuristani
+23,Indo-Iranic,Iranic,,,Iranic,,#FF3E96,6,3,0,0,Iranic
+11,Balto-Slavic,,,,Balto-Slavic,BSv,#EE7600,7,0,0,0,BaltoSlavic
+29,Balto-Slavic,Baltic,,,Baltic,,#FFBB00,7,1,0,0,Baltic
+12,Balto-Slavic,Slavic,,,Slavic,,#FF6000,7,2,0,0,Slavic
+45,Balto-Slavic,Slavic,Slavic South,,Slavic South,,#E68A00,7,2,1,0,SlavicSouth
+46,Balto-Slavic,Slavic,Slavic West,,Slavic West,,#FFAD33,7,2,2,0,SlavicWest
+47,Balto-Slavic,Slavic,Slavic East,,Slavic East,,#FFCC80,7,2,3,0,SlavicEast
+1,Germanic,,,,Germanic,Gmc,#191970,8,0,0,0,Germanic
+36,Germanic,East Germanic,,,East Germanic,,#27408B,8,1,0,0,GermanicEast
+37,Germanic,North-West,,,North-West,,#0000CD,8,2,0,0,GermanicNorthWest
+3,Germanic,North-West,North Germanic,,North,,#4169E1,8,2,1,0,GermanicNorth
+2,Germanic,North-West,West Germanic,,West,,#6495ED,8,2,2,0,GermanicWest
+5,Italic,,,,Italic,Itc,#00EE00,9,0,0,0,Italic
+51,Italic,Roman,,,Roman,,#76EE00,9,1,0,0,Roman
+35,Italic,Sabellic,,,Sabellic,,#ADFF24,9,2,0,0,ItalicSabellic
+15,Celtic,,,,Celtic,Celt,#006400,10,0,0,0,Celtic
+39,Celtic,Continental,,,Continental,,#006400,10,1,0,0,CelticContinental
+17,Celtic,Brythonic,,,Brythonic,,#2E8B57,10,2,0,0,CelticBrythonic
+16,Celtic,Goidelic,,,Goidelic,,#008B00,10,3,0,0,CelticGoidelic

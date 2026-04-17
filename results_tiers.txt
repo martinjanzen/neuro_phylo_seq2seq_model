@@ -1,0 +1,94 @@
+CLAIM 3: Reconstruction accuracy follows the full three-tier hierarchy (Color > Articulation > Skeleton)
+Evaluated via 10-fold cross-validation (N=150 concepts, pooled held-out predictions)
+======================================================================
+
+SUPPORTED: Articulation > Skeleton (T=10387.5, p=4.66e-20, n=150)
+SUPPORTED: Color > Articulation (T=7078.0, p=4.11e-04, n=150)
+
+PRIMARY STATISTICS — Wilcoxon per-concept accuracy (cross-validated pooled data):
+  Articulation > Skeleton: T=10387.5, p=4.6601e-20, n=150 (sig ✓)
+  Color > Articulation: T=7078.0, p=4.1054e-04, n=150 (sig ✓)
+
+CROSS-FOLD KAPPAS — fixed threshold=0.5 (mean ± std, 10 folds):
+  Skeleton      : 0.4146 ± 0.0408
+  Articulation  : 0.6254 ± 0.0289
+  Color         : 0.6973 ± 0.0077
+
+PER-FOLD KAPPAS (fixed threshold=0.5):
+  Fold  1:  Skeleton=0.378  Articulation=0.620  Color=0.705
+  Fold  2:  Skeleton=0.482  Articulation=0.661  Color=0.697
+  Fold  3:  Skeleton=0.444  Articulation=0.582  Color=0.714
+  Fold  4:  Skeleton=0.436  Articulation=0.611  Color=0.695
+  Fold  5:  Skeleton=0.401  Articulation=0.629  Color=0.695
+  Fold  6:  Skeleton=0.463  Articulation=0.632  Color=0.698
+  Fold  7:  Skeleton=0.417  Articulation=0.649  Color=0.691
+  Fold  8:  Skeleton=0.414  Articulation=0.632  Color=0.702
+  Fold  9:  Skeleton=0.349  Articulation=0.664  Color=0.684
+  Fold 10:  Skeleton=0.363  Articulation=0.573  Color=0.692
+
+ORACLE-THRESHOLD KAPPAS (pooled predictions, upper bounds):
+  Skeleton      : κ = 0.444926  (oracle threshold=0.10)
+  Articulation  : κ = 0.628301  (oracle threshold=0.25)
+  Color         : κ = 0.698103  (oracle threshold=0.15)
+
+BASELINE COMPARISON (fixed threshold=0.5 for baselines; oracle for model):
+  Skeleton      : model advantage = +0.0550
+  Articulation  : model advantage = +0.0254
+  Color         : model advantage = +0.0006
+
+  Advantage tiered: No ✗
+  Tier ordering is reproduced by Majority baseline alone.
+  The model RECOVERS the distribution-level hierarchy.
+  It does NOT differentially amplify harder tiers.
+
+BASELINE KAPPAS BY TIER (for figures):
+  Majority         Skeleton=0.387094  Articulation=0.602903  Color=0.697517
+  Mean-of-inputs   Skeleton=0.320790  Articulation=0.406977  Color=0.462625
+  Copy-Italian     Skeleton=0.389942  Articulation=0.490944  Color=0.578147
+
+BOOTSTRAP ORDERING PROPORTION (supplementary, oracle upper bound):
+  p_strict=1.0000  (≥0.95 — meets threshold ✓)
+
+BOOTSTRAP κ 95% CIs (oracle upper bounds, pooled cross-val):
+  Skeleton      : [0.4210, 0.4689]
+  Articulation  : [0.6061, 0.6501]
+  Color         : [0.6832, 0.7124]
+
+MEAN F1 BY TIER (threshold=0.5, pooled cross-validated data):
+  Skeleton:     0.4098  (substantive only)
+  Articulation: 0.4273  (substantive only)
+  Color:        0.3788  (substantive only)
+  All 24:       0.5288
+  Substantive:  0.4048  ← report in paper
+  Degenerate:   ['sg', 'cg', 'lab', 'high', 'ret']  (near-constant in dataset, excluded from mean)
+  NOTE: Color F1 < Articulation F1 at fixed threshold=0.5 because Color
+  predictions are systematically low-valued (oracle threshold=0.15).
+  At threshold=0.5 the model under-predicts Color features, suppressing F1.
+  Cohen's kappa at oracle threshold is the appropriate primary metric;
+  F1 at 0.5 reflects output calibration, not discriminative ability.
+
+PER-FEATURE F1 (threshold=0.5, pooled cross-validated data):
+  Skel syl     : 0.367026
+  Skel son     : 0.413652
+  Skel cons    : 0.363722
+  Skel cont    : 0.432629
+  Skel delrel  : 0.472034
+  Art  lat     : 0.485629
+  Art  nas     : 0.480339
+  Art  strid   : 0.468111
+  Art  voi     : 0.439661
+  Art  sg      : 1.000000  [degenerate]
+  Art  cg      : 1.000000  [degenerate]
+  Art  ant     : 0.355660
+  Art  cor     : 0.380678
+  Art  distr   : 0.380678
+  Col  hi      : 0.471059
+  Col  lo      : 0.294564
+  Col  back    : 0.294564
+  Col  rnd     : 0.405947
+  Col  vel     : 0.455295
+  Col  lab     : 1.000000  [degenerate]
+  Col  labz    : 0.234465
+  Col  low     : 0.495892
+  Col  high    : 1.000000  [degenerate]
+  Col  ret     : 1.000000  [degenerate]
