@@ -65,6 +65,8 @@ python generate_figures.py
 ```
 Output: `fig1_ablation_delta.pdf` through `fig6_feature_f1.pdf`
 
+> Note: `generate_figures.py` was generated with Claude, I take no credit for the code used to generate figures.
+
 > Note: Steps 4–6 are independent of each other and can be run in any order after step 3. Each trains its own models from scratch. Expect each to take several minutes on CPU depending on hardware.
 
 
