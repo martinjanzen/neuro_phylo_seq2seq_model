@@ -97,7 +97,7 @@ def fig_ablation_delta():
     ax.set_xticks(xs)
     ax.set_xticklabels(LANG_ORDER)
     ax.set_ylabel("ΔPhonologicalLoss (ablated − baseline)")
-    ax.set_title("Figure 1: Per-Language Ablation Effect")
+    ax.set_title("Per-Language Ablation Effect")
     for bar, d, s in zip(bars, deltas, stds):
         ax.text(bar.get_x() + bar.get_width()/2,
                 d + (s + 0.002) * np.sign(d) if d != 0 else 0.002,
@@ -127,7 +127,7 @@ def fig_ablation_folds():
     ax.set_xticklabels(["Baseline", "Italian ablated"])
     ax.set_xlim(-0.15, 1.15)
     ax.set_ylabel("PhonologicalLoss")
-    ax.set_title("Figure 2: Per-Fold Loss — Baseline vs. Italian Ablated")
+    ax.set_title("Per-Fold Loss — Baseline vs. Italian Ablated")
     rise = mpatches.Patch(color="#2196F3", alpha=0.6, label="Loss increased (expected)")
     drop = mpatches.Patch(color="#F44336", alpha=0.6, label="Loss decreased (unexpected)")
     ax.legend(handles=[rise, drop], fontsize=9)
@@ -148,8 +148,7 @@ def fig_attention_bar():
     ax.set_xticks(xs)
     ax.set_xticklabels(LANG_ORDER)
     ax.set_ylabel("Mean Attention Weight")
-    ax.set_title("Figure 3: Mean Decoder Attention by Language\n"
-                 "(ordered by conservatism, most → least)")
+    ax.set_title("Mean Decoder Attention by Language")
     for i, (m, s) in enumerate(zip(means, stds)):
         ax.text(i, m + s + 0.005, f"{m:.3f}", ha="center", fontsize=9)
     fig.tight_layout()
@@ -166,7 +165,7 @@ def fig_attention_heatmap():
     ax.set_xticklabels(LANG_ORDER)
     ax.set_yticks(range(10))
     ax.set_yticklabels([f"Fold {i+1}" for i in range(10)])
-    ax.set_title("Figure 4: Fold-Level Attention Weights by Language")
+    ax.set_title("Fold-Level Attention Weights by Language")
     for i in range(10):
         for j in range(len(LANG_ORDER)):
             ax.text(j, i, f"{fw[i,j]:.3f}", ha="center", va="center",
@@ -197,8 +196,7 @@ def fig_tier_kappas():
     ax.set_xticklabels(tiers)
     ax.set_ylabel("Cohen's κ")
     ax.set_ylim(0, 0.85)
-    ax.set_title("Figure 5: Tier Reconstruction Accuracy — Model vs. Baselines\n"
-                 "(model at oracle threshold; baselines at fixed threshold=0.5)")
+    ax.set_title("Tier Reconstruction Accuracy — Model vs. Baselines")
     ax.legend(fontsize=9)
     fig.tight_layout()
     fig.savefig("fig5_tier_kappas.png", dpi=300)
@@ -217,8 +215,7 @@ def fig_feature_f1():
     ax.set_xticks(xs)
     ax.set_xticklabels(FEAT_NAMES, rotation=45, ha="right", fontsize=9)
     ax.set_ylabel("Macro-F1 (threshold=0.5)")
-    ax.set_title("Figure 6: Per-Feature Reconstruction F1\n"
-                 "(grey = degenerate, excluded from substantive mean)")
+    ax.set_title("Per-Feature Reconstruction F1")
     ax.axhline(1.0, color="black", linewidth=0.6, linestyle="--", alpha=0.4)
 
     # Tier boundary markers
